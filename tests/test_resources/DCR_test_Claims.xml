@@ -1,0 +1,259 @@
+<dcrgraph title="DCR_test" dataTypesStatus="hide" filterLevel="-1" zoomLevel="0" formGroupStyle="Normal"
+          formLayoutStyle="Horizontal" graphBG="#EBEBEB">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <custom>
+                        <visualization>
+                            <location xLoc="300" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Call Centre Agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity1">
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Call Centre Agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity2">
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Claims handler</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity3">
+                    <custom>
+                        <visualization>
+                            <location xLoc="300" yLoc="325"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Claims handler</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity4">
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="325"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Claims handler</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="325"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Claims handler</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity6">
+                    <custom>
+                        <visualization>
+                            <location xLoc="700" yLoc="525"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Claims handler</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="check if sufficient information is available"/>
+                <label id="register claim"/>
+                <label id="determine likelihood of claim"/>
+                <label id="assess claim"/>
+                <label id="initiate payment"/>
+                <label id="advise claimant on reimbursement"/>
+                <label id="close claim"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="check if sufficient information is available"/>
+                <labelMapping eventId="Activity1" labelId="register claim"/>
+                <labelMapping eventId="Activity2" labelId="determine likelihood of claim"/>
+                <labelMapping eventId="Activity3" labelId="assess claim"/>
+                <labelMapping eventId="Activity4" labelId="initiate payment"/>
+                <labelMapping eventId="Activity5" labelId="advise claimant on reimbursement"/>
+                <labelMapping eventId="Activity6" labelId="close claim"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="">Call Centre Agent</role>
+                    <role description="">Claims handler</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity1" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <excludes></excludes>
+            <includes></includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity1"/>
+                <event id="Activity2"/>
+                <event id="Activity3"/>
+                <event id="Activity4"/>
+                <event id="Activity5"/>
+                <event id="Activity6"/>
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+        <custom/>
+    </runtime>
+</dcrgraph>

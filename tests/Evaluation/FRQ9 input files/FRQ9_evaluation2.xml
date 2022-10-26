@@ -1,0 +1,209 @@
+<dcrgraph title="FRQ9_evaluation1" dataTypesStatus="hide" filterLevel="-1" zoomLevel="5" formGroupStyle="Normal"
+          formLayoutStyle="Horizontal" graphBG="#EBEBEB">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0_1">
+                    <custom>
+                        <visualization>
+                            <location xLoc="175" yLoc="225"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Role1</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity3_1">
+                    <custom>
+                        <visualization>
+                            <location xLoc="525" yLoc="225"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Role4</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity4_1">
+                    <custom>
+                        <visualization>
+                            <location xLoc="525" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Role5</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="125"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Role3</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+                <event id="Activity1_1">
+                    <custom>
+                        <visualization>
+                            <location xLoc="175" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Role2</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="a"/>
+                <label id="d"/>
+                <label id="e"/>
+                <label id="c"/>
+                <label id="b"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0_1" labelId="a"/>
+                <labelMapping eventId="Activity3_1" labelId="d"/>
+                <labelMapping eventId="Activity4_1" labelId="e"/>
+                <labelMapping eventId="Activity5" labelId="c"/>
+                <labelMapping eventId="Activity1_1" labelId="b"/>
+            </labelMappings>
+            <expressions>
+                <expression id="Activity5-path-Activity3_1--milestone" value="a.data&gt;10"/>
+            </expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="">Role1</role>
+                    <role description="">Role2</role>
+                    <role description="">Role3</role>
+                    <role description="">Role4</role>
+                    <role description="">Role5</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions></conditions>
+            <responses></responses>
+            <excludes></excludes>
+            <includes></includes>
+            <milestones>
+                <milestone sourceId="Activity4_1" targetId="Activity3_1" filterLevel="0" description="" time=""
+                           groups="" expressionId="Activity5-path-Activity3_1--milestone"/>
+            </milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0_1"/>
+                <event id="Activity4_1"/>
+                <event id="Activity5"/>
+                <event id="Activity1_1"/>
+                <event id="Activity3_1"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity4_1"/>
+            </pendingResponses>
+        </marking>
+        <custom/>
+    </runtime>
+</dcrgraph>
