@@ -70,9 +70,9 @@ def progress_based_conf(traces, p):
         # Check the trace
         nr_executed = 0
         for event in trace:
-            fired = p.execute(event)
+            p.execute(event)
             # C# code
-            if not fired:
+            if not p.is_accepting():
                 break
             else:
                 nr_executed += 1
@@ -92,8 +92,8 @@ def simple_conf(traces, p):
         # Check the trace
         for event in trace:
             # C# code
-            fired = p.execute(event)
-            if not fired:
+            p.execute(event)
+            if not p.is_accepting():
                 fails += 1
                 break
     conf_val = 1.0-(fails/nr_traces)
