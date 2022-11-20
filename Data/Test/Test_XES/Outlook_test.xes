@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="3ce30277-5d94-ec11-b400-000d3a14d7bb"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;yahoo mail&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="575"/>
+			<date key="time:timestamp" value="2022-02-23T05:07:44.000+01:00"/>
+			<int key="NextStepId" value="27"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="New tab and 5 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="25"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;New tab and    - Microsoft‰ÛÜ Edge&apos; 2; Text:&apos;yahoo mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;yahoo mail&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="576"/>
+			<date key="time:timestamp" value="2022-02-23T05:07:44.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;yahoo mail -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Yahoo Mail\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 11 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="577"/>
+			<date key="time:timestamp" value="2022-02-23T05:07:49.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="yahoo mail - Search and 5 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Yahoo Mail&apos; in Window &apos;yahoo mail -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Compose\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="578"/>
+			<date key="time:timestamp" value="2022-02-23T05:07:54.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Compose&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Combo Box \\&apos;   D_X p_a L_0 B_0\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 46 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="579"/>
+			<date key="time:timestamp" value="2022-02-23T05:07:56.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Combo Box &apos;   D_X p_a L_0 B_0&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;Namedes{RShiftKey}(_)vd&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="580"/>
+			<date key="time:timestamp" value="2022-02-23T05:07:57.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="30"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;Namedes{RShiftKey}(_)vd&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Subject\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 188 OffsetY: 4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="581"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:03.000+01:00"/>
+			<int key="NextStepId" value="33"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="31"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Subject&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Combo Box \\&apos;   D_X p_a L_0 B_0\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 88 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="582"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:05.000+01:00"/>
+			<int key="NextStepId" value="34"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="32"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Combo Box &apos;   D_X p_a L_0 B_0&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;Username&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="583"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:06.000+01:00"/>
+			<int key="NextStepId" value="35"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="33"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;Username&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Subject\\&apos;&apos;] Text: &apos;Holiday survey form&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="584"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:19.000+01:00"/>
+			<int key="NextStepId" value="36"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="34"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Subject&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;; Text:&apos;Holiday survey form&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Message body\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 43 OffsetY: 32 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="585"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:21.000+01:00"/>
+			<int key="NextStepId" value="37"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="35"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Message body&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Message body\\&apos; 2&apos;] Text: &apos;Hi,&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="586"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:23.000+01:00"/>
+			<int key="NextStepId" value="38"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="36"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Message body&apos; 2 in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;; Text:&apos;Hi,&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="587"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:24.000+01:00"/>
+			<int key="NextStepId" value="39"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="37"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Message body\\&apos; 2&apos;] Text: &apos;&apos;&apos;Hi,\n&quot;, &quot;Fill out the form&apos;&apos;&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="588"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:36.000+01:00"/>
+			<int key="NextStepId" value="40"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="38"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Message body&apos; 2 in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;; Text:&apos;&apos;&apos;Hi,&#10;Fill out the form&apos;&apos;&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="589"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:37.000+01:00"/>
+			<int key="NextStepId" value="41"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="39"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Message body\\&apos; 2&apos;] Text: &apos;&apos;&apos;Hi,\n&quot;, &apos;Fill out the form\n&apos;, &apos;https://formszohopublicin/rohinenterprise/form/holidaysurvey/formperma/EKMAaSZvXeFlb_ddCSt4-cbpeEsKmgl0xMf2hvJfVB0\n&apos;, &quot;&apos;&apos;&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="590"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:38.000+01:00"/>
+			<int key="NextStepId" value="42"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="40"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Message body&apos; 2 in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;; Text:&apos;&apos;&apos;Hi,&#10;Fill out the form&#10;https://formszohopublicin/rohinenterprise/form/holidaysurvey/formperma/EKMAaSZvXeFlb_ddCSt4-cbpeEsKmgl0xMf2hvJfVB0&#10;&apos;&apos;&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Send\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="591"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:47.000+01:00"/>
+			<int key="NextStepId" value="43"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="41"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Send&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="de163300-328a-494e-aa26-6e4562865217"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectTab Tab: appmask[&apos;Window \\&apos;kru   - Microsoft\u200b Edge\\&apos;&apos;][&apos;Tab Item \\&apos;Zoho Forms\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select tab in window"/>
+			<int key="rows" value="592"/>
+			<date key="time:timestamp" value="2022-02-23T05:08:56.000+01:00"/>
+			<int key="NextStepId" value="44"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Email@Domain - Yahoo Mail and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="42"/>
+			<string key="concept:name" value="msedgeSelect tab in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Prepare a form"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Tab Item &apos;Zoho Forms&apos; in Window &apos;kru   - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cd2d331d-86e3-4f45-b080-4cacd20e1c6b"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6787a2ed-cd8f-ec11-b400-0022482f8e02"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;TaskBar&apos;][&apos;Button \\&apos;Type here to search\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3755"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:13.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Type here to search&apos; in TaskBar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="4e1e4e35-f287-447b-bc52-a28ebd0f528d"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Search\\&apos;&apos;][&apos;Edit \\&apos;Search box\\&apos;&apos;] Text: &apos;mail&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3756"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:17.000+01:00"/>
+			<int key="NextStepId" value="18"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Search"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="SearchAppPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="SearchApp"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Search box&apos; in Window &apos;Search&apos;; Text:&apos;mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="4e1e4e35-f287-447b-bc52-a28ebd0f528d"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Search\\&apos;&apos;][&apos;List Item \\&apos;Mail, App, Press right to switch preview\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -9 OffsetY: 8 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3757"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:21.000+01:00"/>
+			<int key="NextStepId" value="19"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Search"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="17"/>
+			<string key="concept:name" value="SearchAppClick UI element in window"/>
+			<string key="ApplicationProcessName" value="SearchApp"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;Mail, App, Press right to switch preview&apos; in Window &apos;Search&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="4e1e4e35-f287-447b-bc52-a28ebd0f528d"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;New mail\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3758"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:25.000+01:00"/>
+			<int key="NextStepId" value="20"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="18"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;New mail&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;To: \\&apos;&apos;] Text: &apos;Username&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3759"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:36.000+01:00"/>
+			<int key="NextStepId" value="21"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="19"/>
+			<string key="concept:name" value="ApplicationFrameHostPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;To: &apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;; Text:&apos;Username&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;List Item \\&apos;Name Email@Domain\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 9 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3760"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:40.000+01:00"/>
+			<int key="NextStepId" value="22"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;Name Email@Domain&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Subject\\&apos;&apos;] Text: &apos;Project Data&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3761"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:45.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="21"/>
+			<string key="concept:name" value="ApplicationFrameHostPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Subject&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;; Text:&apos;Project Data&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Message\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 172 OffsetY: 150 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3762"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:49.000+01:00"/>
+			<int key="NextStepId" value="24"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="22"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Message&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{LShiftKey}(H)ello,{LShiftKey}({Return}){LShiftKey}(PFA){Return}{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="3763"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:50.000+01:00"/>
+			<int key="NextStepId" value="25"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="23"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{LShiftKey}(H)ello,{LShiftKey}({Return}){LShiftKey}(PFA){Return}{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectTab Tab: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Tab Item \\&apos;Insert\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select tab in window"/>
+			<int key="rows" value="3764"/>
+			<date key="time:timestamp" value="2022-02-17T09:55:58.000+01:00"/>
+			<int key="NextStepId" value="26"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="24"/>
+			<string key="concept:name" value="ApplicationFrameHostSelect tab in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Tab Item &apos;Insert&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;Files\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3765"/>
+			<date key="time:timestamp" value="2022-02-17T09:56:03.000+01:00"/>
+			<int key="NextStepId" value="27"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="25"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Files&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Name\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -22 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3766"/>
+			<date key="time:timestamp" value="2022-02-17T09:56:07.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Name&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;Open\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3767"/>
+			<date key="time:timestamp" value="2022-02-17T09:56:10.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Open&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="2cc47143-73d5-435f-b5be-269cd61228ce"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;Send\\&apos;&apos;]\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3768"/>
+			<date key="time:timestamp" value="2022-02-17T09:56:14.000+01:00"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="powerbi/outlook"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Send mail"/>
+			<string key="ProcessId" value="c94b82ec-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Send&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6ee8ac97-b970-45f1-8f38-573d997d3afc"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="98e64aae-d896-ec11-b400-000d3a14d9b2"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Mail - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="1537"/>
+			<date key="time:timestamp" value="2022-02-26T09:09:43.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/dynamicscrmonline"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="3c72fd77-5385-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Mail - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="5b1577b3-0b4e-482f-b895-1198d5bc3de7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;List Item \\&apos;Inbox folder, 1 unread, favorite\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -31 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1538"/>
+			<date key="time:timestamp" value="2022-02-26T09:09:45.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="Outlook/dynamicscrmonline"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="3c72fd77-5385-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;Inbox folder, 1 unread, favorite&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="702afbcf-3334-4df2-b487-a8d6e1d63478"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;List Item \\&apos; Unread    8563214785\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 173 OffsetY: 5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1539"/>
+			<date key="time:timestamp" value="2022-02-26T09:09:47.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="Outlook/dynamicscrmonline"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="3c72fd77-5385-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos; Unread    8563214785&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="702afbcf-3334-4df2-b487-a8d6e1d63478"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Outlook \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Message\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -23 OffsetY: 174 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1540"/>
+			<date key="time:timestamp" value="2022-02-26T09:09:49.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Outlook ‰Û?- Mail"/>
+			<string key="Process_Name" value="Outlook/dynamicscrmonline"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="3c72fd77-5385-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Message&apos; in Window &apos;Inbox - Outlook ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="702afbcf-3334-4df2-b487-a8d6e1d63478"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Firefox - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="1541"/>
+			<date key="time:timestamp" value="2022-02-26T09:09:53.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/dynamicscrmonline"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="3c72fd77-5385-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Firefox - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0faf23d1-ea00-49cf-a5d2-4379950ea57c"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="b89f8225-b68f-ec11-b400-0022482f8fe5"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Mail - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="4492"/>
+			<date key="time:timestamp" value="2022-02-17T07:00:56.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Mail - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="44b3124e-c0ec-4b93-8571-4100829eb4ea"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;List Item \\&apos;Gmail, Email@Domain\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 84 OffsetY: -8 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4493"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:00.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;Gmail, Email@Domain&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="44b3124e-c0ec-4b93-8571-4100829eb4ea"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;New mail\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="4494"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:03.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;New mail&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;To: \\&apos;&apos;] Text: &apos;Name&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="4495"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:08.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="ApplicationFrameHostPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;To: &apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;; Text:&apos;Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;List Item \\&apos;Email@Domain Email@Domain\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 81 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4496"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:11.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;Email@Domain Email@Domain&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Subject\\&apos;&apos;] Text: &apos;Minutes of Meetings&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="4497"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:21.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="ApplicationFrameHostPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Subject&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;; Text:&apos;Minutes of Meetings&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectTab Tab: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Tab Item \\&apos;Insert\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select tab in window"/>
+			<int key="rows" value="4498"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:24.000+01:00"/>
+			<int key="NextStepId" value="13"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="ApplicationFrameHostSelect tab in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Tab Item &apos;Insert&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;Files\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="4499"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:26.000+01:00"/>
+			<int key="NextStepId" value="14"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="12"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Files&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Name\\&apos;&apos;] ClickType: UIAutomationClickTypeDoubleClick OffsetX: -37 OffsetY: -7 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4500"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:28.000+01:00"/>
+			<int key="NextStepId" value="15"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="13"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Name&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Edit \\&apos;Message\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 75 OffsetY: -16 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4501"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:32.000+01:00"/>
+			<int key="NextStepId" value="16"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="14"/>
+			<string key="concept:name" value="ApplicationFrameHostClick UI element in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Message&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{LShiftKey}(H)ello,{Return}{Return}{LShiftKey}(P)lease{Space}find{Space}meeting{Space}notes{Space}for{Space}your{Space}reference{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="4502"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:33.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{LShiftKey}(H)ello,{Return}{Return}{LShiftKey}(P)lease find meeting notes for your reference{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="837fe3a7-2297-4945-98a5-180e356ecf45"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Inbox - Gmail \u200e- Mail\\&apos;&apos;][&apos;Button \\&apos;Send\\&apos;&apos;]\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="4503"/>
+			<date key="time:timestamp" value="2022-02-17T07:01:48.000+01:00"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Inbox - Gmail ‰Û?- Mail"/>
+			<string key="Process_Name" value="onedriveforbusiness/outlook"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="ApplicationFrameHostPress button in window"/>
+			<string key="ApplicationProcessName" value="ApplicationFrameHost"/>
+			<string key="label_EventName" value="Share via mail"/>
+			<string key="ProcessId" value="3b61b1a4-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Send&apos; in Window &apos;Inbox - Gmail ‰Û?- Mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="7dfa26f9-c9c9-46b3-81c6-06f58a420296"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="eb935e71-bc8f-ec11-b400-0022482f8e02"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Edge (2) - 2 running windows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="3662"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:35.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Select menu option in window"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Microsoft Edge (2) - 2 running windows in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;office    - Microsoft\u200b Edge\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 48 OffsetY: 14 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3663"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:39.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="Click UI element in window"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;office    - Microsoft‰ÛÜ Edge&apos; in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;office 365 -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;New Tab\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3664"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:42.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="office 365 - Search - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;New Tab&apos; in Window &apos;office 365 -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;office 365 -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 112 OffsetY: -7 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3665"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:43.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="office 365 - Search - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;office 365 -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;yahoo mail&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3666"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:49.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="New tab and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;New tab and    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;yahoo mail&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="3667"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:50.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;yahoo mail -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Yahoo Mail\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -24 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3668"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:53.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="yahoo mail - Search and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Yahoo Mail&apos; in Window &apos;yahoo mail -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;(3 unread) -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Data Item \\&apos;Project Raw data\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -15 OffsetY: 5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3669"/>
+			<date key="time:timestamp" value="2022-02-17T07:46:59.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="(3 unread) - Email@Domain - Yahoo Mail and 2 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the Mailbox"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Data Item &apos;Project Raw data&apos; in Window &apos;(3 unread) -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="fc523888-f4a9-4120-9082-de11e04d4db7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;(3 unread) -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Group \\&apos;Download\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 0 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3670"/>
+			<date key="time:timestamp" value="2022-02-17T07:47:04.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="(3 unread) - Email@Domain - Yahoo Mail and 2 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Save/Download the file"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Group &apos;Download&apos; in Window &apos;(3 unread) -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="f7eebd86-d74e-48c7-ae61-d1976bea0919"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;(3 unread) -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;List Item \\&apos;Raw Data    download item\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 102 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3671"/>
+			<date key="time:timestamp" value="2022-02-17T07:47:12.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="ApplicationParentWindowName" value="(3 unread) - Email@Domain - Yahoo Mail and 2 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Save/Download the file"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;Raw Data    download item&apos; in Window &apos;(3 unread) -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="f7eebd86-d74e-48c7-ae61-d1976bea0919"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: 1 MouseDownOffsetX: 16 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointMiddleLeft ControlToDrag: appmask[&apos;Window \\&apos;Raw Data of    View] - Excel\\&apos;&apos;][&apos;Data Item \\&apos;A3\\&apos;&apos;] MouseUpOffsetY: 0 MouseUpOffsetX: 2 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointMiddleLeft ControlToDropOver: appmask[&apos;Window \\&apos;Raw Data of    View] - Excel\\&apos;&apos;][&apos;Data Item \\&apos;D10\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="3672"/>
+			<date key="time:timestamp" value="2022-02-17T07:47:19.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="Drag and drop UI element in window"/>
+			<string key="label_EventName" value="Save/Download the file"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="UIAutomationDragAndDropElementMouseDownOffsetY:1MouseDownOffsetX:16RectangleEdgePointForMouseDown:UIAutomationRectangleEdgePointMiddleLeftControlToDrag:appmask[&apos;Window \&apos;Raw Data of    View] - Excel\&apos;&apos;][&apos;Data Item \&apos;A3\&apos;&apos;]MouseUpOffsetY:0MouseUpOffsetX:2RectangleEdgePointForMouseUp:UIAutomationRectangleEdgePointMiddleLeftControlToDropOver:appmask[&apos;Window \&apos;Raw Data of    View] - Excel\&apos;&apos;][&apos;Data Item \&apos;D10\&apos;&apos;]ClickType:UIAutomationDragAndDropClickTypeLeftClick"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="f7eebd86-d74e-48c7-ae61-d1976bea0919"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: 1 MouseDownOffsetX: 6 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointMiddleCenter ControlToDrag: appmask[&apos;Window \\&apos;Raw Data of    View] - Excel\\&apos;&apos;][&apos;Data Item \\&apos;A3\\&apos;&apos;] MouseUpOffsetY: -3 MouseUpOffsetX: 8 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointMiddleCenter ControlToDropOver: appmask[&apos;Window \\&apos;Raw Data of    View] - Excel\\&apos;&apos;][&apos;Data Item \\&apos;D10\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="3673"/>
+			<date key="time:timestamp" value="2022-02-17T07:47:23.000+01:00"/>
+			<int key="NextStepId" value="13"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="Drag and drop UI element in window"/>
+			<string key="label_EventName" value="Save/Download the file"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="UIAutomationDragAndDropElementMouseDownOffsetY:1MouseDownOffsetX:6RectangleEdgePointForMouseDown:UIAutomationRectangleEdgePointMiddleCenterControlToDrag:appmask[&apos;Window \&apos;Raw Data of    View] - Excel\&apos;&apos;][&apos;Data Item \&apos;A3\&apos;&apos;]MouseUpOffsetY:-3MouseUpOffsetX:8RectangleEdgePointForMouseUp:UIAutomationRectangleEdgePointMiddleCenterControlToDropOver:appmask[&apos;Window \&apos;Raw Data of    View] - Excel\&apos;&apos;][&apos;Data Item \&apos;D10\&apos;&apos;]ClickType:UIAutomationDragAndDropClickTypeLeftClick"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="f7eebd86-d74e-48c7-ae61-d1976bea0919"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{LControlKey}({C})&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="3674"/>
+			<date key="time:timestamp" value="2022-02-17T07:47:24.000+01:00"/>
+			<int key="NextStepId" value="14"/>
+			<string key="Connectors" value="Outlook"/>
+			<string key="Process_Name" value="Outlook/powerbi"/>
+			<int key="StepId" value="12"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Save/Download the file"/>
+			<string key="ProcessId" value="7a1f3fb7-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{LControlKey}({C})&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="f7eebd86-d74e-48c7-ae61-d1976bea0919"/>
+		</event>
+	</trace>
+</log>
