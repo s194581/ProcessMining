@@ -104,13 +104,13 @@ def main():
     args = sys.argv[1:]
     # Create DCR graph
     p = DCR_graph(
-        "/home/frida/Dokumenter/E22/02269_ProcessMining/Discover/DisCoveR/logs/morten.txt.JSON")
+        "morten.txt.JSON")
     # p = DCR_graph(args[0]) # As argument on commandline
 
     # Create traces from xes file
     # traces = read_log_from_XES(args[1]) # As argument on commandline
     traces = read_log_from_XES(
-        '/home/frida/Dokumenter/E22/02269_ProcessMining/Discover/DisCoveR/logs/morten.xes')
+        'morten.xes')
 
     simple_conf_val = simple_conf(traces, p)
     print("Simple conformance value: ", simple_conf_val)
