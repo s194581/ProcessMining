@@ -10,12 +10,13 @@ class Relation:
 
 
 class Process:
-    events = set()
-    relations = set()
+    def __init__(self):
+        self.events = set()
+        self.relations = set()
 
-    executed = set()
-    included = set()
-    pending = set()
+        self.executed = set()
+        self.included = set()
+        self.pending = set()
 
     def add_event(self, name):
         self.events.add(name)
@@ -29,15 +30,11 @@ class Process:
 
         for r in self.relations:
             if r.rel == "condition":
-                if r.src in self.included and not r.src in self.executed:
+                if r.src in self.included and not r.src in self.executed and r.tgt in result:
                     result.remove(r.tgt)
-                break
             elif r.rel == "milestone":
-                if r.src in self.included and r.src in self.pending:
+                if r.src in self.included and r.src in self.pending and r.tgt in result.remove:
                     result.remove(r.tgt)
-                break
-            else:
-                break
 
         return result
 
@@ -47,17 +44,18 @@ class Process:
         self.executed.add(e)
 
         for r in self.relations:
-            if r.rel != e:
+            if r.src != e:
                 continue
-
             if r.rel == 'exclude':
-                self.included.remove(r.tgt)
+                if r.tgt in self.included:
+                    self.included.remove(r.tgt)
             elif r.rel == "include":
                 self.included.add(r.tgt)
             elif r.rel == "response":
                 self.pending.add(r.tgt)
 
     def is_accepting(self):
+
         for e in self.pending:
             if e in self.included:
                 return False

@@ -3,6 +3,7 @@ import json
 import xml.etree.ElementTree as ET
 import sys
 import Engine
+import copy
 
 
 def create_nodes(jsongraph, p):
@@ -63,19 +64,24 @@ def read_log_from_XES(filename):
 
 
 def progress_based_conf(traces, p):
+
     nr_traces = len(traces)
     # Do some conformance checking
     percent_executed = 0
     for trace in traces:
+        copy_p = copy.deepcopy(p)
         # Check the trace
         nr_executed = 0
         for event in trace:
-            p.execute(event)
-            # C# code
-            if not p.is_accepting():
-                break
+
+            if event in copy_p.enabled():
+                copy_p.execute(event)
+                if not copy_p.is_accepting():
+                    break
+                else:
+                    nr_executed += 1
             else:
-                nr_executed += 1
+                break
         percent_executed += nr_executed/len(trace)
 
     conf_val = (percent_executed/nr_traces)
@@ -90,12 +96,15 @@ def simple_conf(traces, p):
     # Do some conformance checking
     for trace in traces:
         # Check the trace
+        copy_p = copy.deepcopy(p)
         for event in trace:
-            # C# code
-            p.execute(event)
-            if not p.is_accepting():
-                fails += 1
-                break
+
+            if event in copy_p.enabled():
+                copy_p.execute(event)
+        if not copy_p.is_accepting():
+            fails += 1
+
+    print(fails, nr_traces)
     conf_val = 1.0-(fails/nr_traces)
     return conf_val
 
@@ -104,13 +113,13 @@ def main():
     args = sys.argv[1:]
     # Create DCR graph
     p = DCR_graph(
-        "morten.txt.JSON")
+        "C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Train/Train_XES/Sendmail_train.txt.JSON")
     # p = DCR_graph(args[0]) # As argument on commandline
 
     # Create traces from xes file
     # traces = read_log_from_XES(args[1]) # As argument on commandline
     traces = read_log_from_XES(
-        'morten.xes')
+        'C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Test/Test_XES/Sendmail_test.xes')
 
     simple_conf_val = simple_conf(traces, p)
     print("Simple conformance value: ", simple_conf_val)
