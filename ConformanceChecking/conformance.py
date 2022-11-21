@@ -55,9 +55,12 @@ def read_log_from_XES(filename):
             case_id = trace.attrib.get('value')
 
             if case_id == None:
-                key = trace[1].attrib.get('value')
-                events.append(key)
-                dict.append(events)
+                for x in trace:
+
+                    if x.attrib.get('key') == 'concept:name':
+                        key = x.attrib.get('value')
+                        events.append(key)
+                        dict.append(events)
     return dict
 
 # Assumption - *When* the trace fails has an impact on *how* conforming it is
@@ -76,10 +79,8 @@ def progress_based_conf(traces, p):
 
             if event in copy_p.enabled():
                 copy_p.execute(event)
-                if not copy_p.is_accepting():
-                    break
-                else:
-                    nr_executed += 1
+                # modify so we can continue
+                nr_executed += 1
             else:
                 break
         percent_executed += nr_executed/len(trace)
@@ -95,13 +96,18 @@ def simple_conf(traces, p):
     nr_traces = len(traces)
     # Do some conformance checking
     for trace in traces:
+        flag = False
         # Check the trace
         copy_p = copy.deepcopy(p)
         for event in trace:
-
             if event in copy_p.enabled():
                 copy_p.execute(event)
-        if not copy_p.is_accepting():
+            else:
+                flag = True
+                break
+        if flag:
+            fails += 1
+        elif not copy_p.is_accepting():
             fails += 1
 
     print(fails, nr_traces)
@@ -113,13 +119,13 @@ def main():
     args = sys.argv[1:]
     # Create DCR graph
     p = DCR_graph(
-        "C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Train/Train_XES/Sendmail_train.txt.JSON")
+        "C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Train/Train_XES/googlecalender_train.txt.JSON")
     # p = DCR_graph(args[0]) # As argument on commandline
 
     # Create traces from xes file
     # traces = read_log_from_XES(args[1]) # As argument on commandline
     traces = read_log_from_XES(
-        'C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Test/Test_XES/Sendmail_test.xes')
+        'C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Test/Test_XES/googlecalender_test.xes')
 
     simple_conf_val = simple_conf(traces, p)
     print("Simple conformance value: ", simple_conf_val)
