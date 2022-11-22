@@ -44,14 +44,14 @@ def main():
 
 
     #Add data and max value of column to DataFrame
-    simple_conf = pd.DataFrame(data_simple, row_header, column_header)
+    simple_conf = pd.DataFrame(data_simple, column_header, row_header)
     simple_max = simple_conf.max()
     simple_max = pd.DataFrame(simple_max)
     simple_max.columns=['MAX']
     simple_max=simple_max.transpose()
     simple_df = simple_conf.append(simple_max)
 
-    progress_conf = (pd.DataFrame(data_progress, row_header, column_header))
+    progress_conf = (pd.DataFrame(data_progress, column_header, row_header))
     progress_max = progress_conf.max()
     progress_max = pd.DataFrame(progress_max)
     progress_max.columns=['MAX']
