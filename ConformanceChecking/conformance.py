@@ -101,8 +101,8 @@ def our_conf(traces, p):
             for e in copy_p.pending:
                 if e in copy_p.enabled():
                     violation += 1
-        violation_percent += (violation/len(copy_p.events)
-                              ) + (missing/len(trace))
+        violation_percent += max((violation /
+                                 len(copy_p.events), (missing/len(trace))))
 
     # print(missing_events)
     conf_val = 1-(violation_percent)/len(traces)
