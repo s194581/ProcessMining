@@ -66,6 +66,59 @@ def read_log_from_XES(filename):
 # Assumption - *When* the trace fails has an impact on *how* conforming it is
 
 
+def find_pending(p, e):
+    for e in p.pending:
+        if e in p.included:
+            for r in p.relations:
+                if r.src != e:
+                    continue
+                elif r.rel == "include":
+                    return r.src
+    return None
+
+
+def our_conf(traces, p):
+    nr_traces = len(traces)
+    # Do some conformance checking
+    percent_executed = 0
+    extra_events = 0
+    missing_events = 0
+    for trace in traces:
+        copy_p = copy.deepcopy(p)
+        # Check the trace
+        nr_executed = 0
+        for event in trace:
+
+            if event in copy_p.enabled():
+                copy_p.execute(event)
+                # modify so we can continue
+                nr_executed += 1
+            else:
+                event_pending = find_pending(copy_p, event)
+                if event_pending != None:
+                    copy_p.execute(event_pending)
+                    if event in copy_p.enabled():
+                        copy_p.execute(event)
+                        # modify so we can continue
+                        nr_executed += 1
+                else:
+                    break
+        else:
+            percent_executed += nr_executed/len(trace)
+            continue
+        if not copy_p.is_accepting():
+            count = 0
+            for e in copy_p.pending:
+                if e in copy_p.included:
+                    count += 1
+            missing_events += count/len(trace)
+        percent_executed += nr_executed/len(trace)
+
+    print(missing_events)
+    conf_val = (percent_executed/nr_traces)-(missing_events/nr_traces)
+    return conf_val
+
+
 def progress_based_conf(traces, p):
 
     nr_traces = len(traces)
@@ -132,6 +185,9 @@ def main():
 
     progress_based_conf_val = progress_based_conf(traces, p)
     print("Progress based conformance value: ", progress_based_conf_val)
+
+    our_conf_val = our_conf(traces, p)
+    print("our conformance value: ", our_conf_val)
 
 
 if __name__ == "__main__":
