@@ -94,18 +94,8 @@ def our_conf(traces, p):
                 # modify so we can continue
                 nr_executed += 1
             else:
-                event_pending = find_pending(copy_p, event)
-                if event_pending != None:
-                    copy_p.execute(event_pending)
-                    if event in copy_p.enabled():
-                        copy_p.execute(event)
-                        # modify so we can continue
-                        nr_executed += 1
-                else:
-                    break
-        else:
-            percent_executed += nr_executed/len(trace)
-            continue
+                #jump over failed
+                pass
         if not copy_p.is_accepting():
             count = 0
             for e in copy_p.pending:
