@@ -83,29 +83,27 @@ def our_conf(traces, p):
     percent_executed = 0
     extra_events = 0
     missing_events = 0
+    violation_percent = 0
     for trace in traces:
         copy_p = copy.deepcopy(p)
         # Check the trace
-        nr_executed = 0
+        violation = 0
         for event in trace:
 
             if event in copy_p.enabled():
                 copy_p.execute(event)
                 # modify so we can continue
-                nr_executed += 1
             else:
-                #jump over failed
                 pass
         if not copy_p.is_accepting():
-            count = 0
             for e in copy_p.pending:
-                if e in copy_p.included:
-                    count += 1
-            missing_events += count/len(trace)
-        percent_executed += nr_executed/len(trace)
+                if e in copy_p.enabled():
+                    violation+=1
+        violation_percent += violation/len(copy_p.events)
+        print(violation_percent)
 
-    print(missing_events)
-    conf_val = (percent_executed/nr_traces)-(missing_events/nr_traces)
+    #print(missing_events)
+    conf_val = 1-(violation_percent)/len(traces)
     return conf_val
 
 

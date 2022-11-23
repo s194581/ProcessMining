@@ -19,6 +19,7 @@ def main():
     #Data values for DataFrame
     data_simple = []
     data_progress = []
+    data_ourconf = []
 
     #For every train data sheet (data model), run traces from test data sheets and calculate conformance value.
     for json_filename in os.listdir(train_path):
@@ -26,6 +27,7 @@ def main():
             row_header.append(json_filename)
             simple_data_row = []
             progress_data_row = []
+            ourconf_data_row = []
             model = cc.DCR_graph(train_path+"/"+json_filename)
 
             for xes_filename in os.listdir(test_path):
@@ -39,8 +41,11 @@ def main():
                     simple_data_row.append(simple_conf_val)
                     progress_based_conf_val = cc.progress_based_conf(traces, model)
                     progress_data_row.append(progress_based_conf_val)
+                    ourconf_conf_val = cc.our_conf(traces, model)
+                    ourconf_data_row.append(ourconf_conf_val)
             data_simple.append(simple_data_row)
             data_progress.append(progress_data_row)
+            data_ourconf.append(ourconf_data_row)
 
 
     #Add data and max value of column to DataFrame
@@ -57,6 +62,13 @@ def main():
     progress_max.columns=['MAX']
     progress_max=progress_max.transpose()
     progress_df = progress_conf.append(progress_max)
+
+    ourconf_conf = (pd.DataFrame(data_ourconf, column_header, row_header))
+    ourconf_max = ourconf_conf.max()
+    ourconf_max = pd.DataFrame(ourconf_max)
+    ourconf_max.columns=['MAX']
+    ourconf_max=ourconf_max.transpose()
+    ourconf_df = ourconf_conf.append(ourconf_max)
     print('-----------------------------------------')
     print('Simple conformance                       ')
     print(simple_df)
@@ -66,8 +78,13 @@ def main():
     print(progress_df)
     print('                                         ')
     print('-----------------------------------------')
+    print('OurConf conformance                     ')
+    print(ourconf_df)
+    print('                                         ')
+    print('-----------------------------------------')
     simple_df.to_excel("dcr_simple_conf.xlsx")
     progress_df.to_excel("dcr_progress_conf.xlsx")
+    ourconf_df.to_excel("dcr_ourconf_conf.xlsx")
     #print(simple_conf.style.to_latex())
     #print('                                         ')
     #print('                                         ')
