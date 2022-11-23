@@ -163,22 +163,22 @@ def simple_conf(traces, p):
         elif not copy_p.is_accepting():
             fails += 1
 
-    print(fails, nr_traces)
+    #print(fails, nr_traces)
     conf_val = 1.0-(fails/nr_traces)
     return conf_val
 
 
 def main():
-    args = sys.argv[1:]
+    #args = sys.argv[1:]
     # Create DCR graph
     p = DCR_graph(
-        "C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Train/Train_XES/googlecalender_train.txt.JSON")
+        "ConformanceChecking/Data/Train/Train_XES/Sendmail_train.txt.JSON")
     # p = DCR_graph(args[0]) # As argument on commandline
 
     # Create traces from xes file
     # traces = read_log_from_XES(args[1]) # As argument on commandline
     traces = read_log_from_XES(
-        'C:/Users/simon/OneDrive/DTU/Kandidat/Process mining/ProcessMining/Data/Test/Test_XES/googlecalender_test.xes')
+        'ConformanceChecking/Data/Test/Test_XES/Approvals_test.xes')
 
     simple_conf_val = simple_conf(traces, p)
     print("Simple conformance value: ", simple_conf_val)
