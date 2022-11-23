@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="0d8ff91e-535d-ec11-8f8f-002248302895"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Quick Launch Bar&apos;][&apos;Google Chrome - 2 running windows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5444"/>
+			<date key="time:timestamp" value="2021-12-15T04:01:48.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Select menu option in window"/>
+			<string key="label_EventName" value="Open the cloud storage"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Google Chrome - 2 running windows in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a912310b-265e-4596-ae82-64cfb918f55e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;New Tab - Google Chrome\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 25 OffsetY: -36 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5445"/>
+			<date key="time:timestamp" value="2021-12-15T04:01:54.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="Click UI element in window"/>
+			<string key="label_EventName" value="Open the cloud storage"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="List Item &apos;New Tab - Google Chrome&apos; in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a912310b-265e-4596-ae82-64cfb918f55e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 68 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5446"/>
+			<date key="time:timestamp" value="2021-12-15T04:01:56.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Open the cloud storage"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a912310b-265e-4596-ae82-64cfb918f55e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;o365&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5447"/>
+			<date key="time:timestamp" value="2021-12-15T04:02:01.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Open the cloud storage"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;o365&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a912310b-265e-4596-ae82-64cfb918f55e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;o365&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="5448"/>
+			<date key="time:timestamp" value="2021-12-15T04:02:01.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Open the cloud storage"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a912310b-265e-4596-ae82-64cfb918f55e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Quick Launch Bar&apos;][&apos;Google Chrome - 2 running windows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5453"/>
+			<date key="time:timestamp" value="2021-12-15T04:02:48.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="Select menu option in window"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Google Chrome - 2 running windows in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0939c6cc-ac51-4091-8480-00c866658547"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: -30 MouseDownOffsetX: -48 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointBottomRight ControlToDrag: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;New Tab - Google Chrome\\&apos; 2&apos;] MouseUpOffsetY: 3 MouseUpOffsetX: 77 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointBottomRight ControlToDropOver: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="5454"/>
+			<date key="time:timestamp" value="2021-12-15T04:03:00.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="Drag and drop UI element in window"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="List Item &apos;New Tab - Google Chrome&apos; 2 in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0939c6cc-ac51-4091-8480-00c866658547"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;adminmicrosoftcom&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5455"/>
+			<date key="time:timestamp" value="2021-12-15T04:03:09.000+01:00"/>
+			<int key="NextStepId" value="13"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;adminmicrosoftcom&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0939c6cc-ac51-4091-8480-00c866658547"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="5456"/>
+			<date key="time:timestamp" value="2021-12-15T04:03:10.000+01:00"/>
+			<int key="NextStepId" value="14"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="12"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0939c6cc-ac51-4091-8480-00c866658547"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Menu Item \\&apos;Users\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: -39 OffsetY: 6 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5457"/>
+			<date key="time:timestamp" value="2021-12-15T04:03:23.000+01:00"/>
+			<int key="NextStepId" value="15"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="13"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Menu Item &apos;Users&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0939c6cc-ac51-4091-8480-00c866658547"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Menu Item \\&apos;Add a    key to add a user\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 31 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5458"/>
+			<date key="time:timestamp" value="2021-12-15T04:03:40.000+01:00"/>
+			<int key="NextStepId" value="16"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="14"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Menu Item &apos;Add a    key to add a user&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;New Tab - Google Chrome\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: -19 OffsetY: 17 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5459"/>
+			<date key="time:timestamp" value="2021-12-15T04:03:58.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="Click UI element in window"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="List Item &apos;New Tab - Google Chrome&apos; in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;grid\\&apos;&apos;] Text: &apos;&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5460"/>
+			<date key="time:timestamp" value="2021-12-15T04:04:15.000+01:00"/>
+			<int key="NextStepId" value="18"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Tab}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="5461"/>
+			<date key="time:timestamp" value="2021-12-15T04:04:23.000+01:00"/>
+			<int key="NextStepId" value="19"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="17"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Tab}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;First name\\&apos;&apos;] Text: &apos;Dhriti&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5462"/>
+			<date key="time:timestamp" value="2021-12-15T04:04:31.000+01:00"/>
+			<int key="NextStepId" value="20"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="18"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;First name&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;Dhriti&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Image \\&apos;To get    the context menu\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: 114 OffsetY: -72 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5463"/>
+			<date key="time:timestamp" value="2021-12-15T04:04:42.000+01:00"/>
+			<int key="NextStepId" value="21"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="19"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Image &apos;To get    the context menu&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;grid\\&apos;&apos;] Text: &apos;&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5464"/>
+			<date key="time:timestamp" value="2021-12-15T04:04:44.000+01:00"/>
+			<int key="NextStepId" value="22"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Last name\\&apos;&apos;] Text: &apos;Surname&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5465"/>
+			<date key="time:timestamp" value="2021-12-15T04:04:52.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="21"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Last name&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;Surname&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Username *\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -28 OffsetY: 8 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5466"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:03.000+01:00"/>
+			<int key="NextStepId" value="24"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="22"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Username *&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Edit \\&apos;Username *\\&apos; 2&apos;] Text: &apos;dhrkoh&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5467"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:12.000+01:00"/>
+			<int key="NextStepId" value="25"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="23"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Username *&apos; 2 in Pane &apos;New Tab - Google Chrome - Person 1&apos;; Text:&apos;dhrkoh&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item \\&apos;  rosoftcom\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: -42 OffsetY: 12 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5468"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:27.000+01:00"/>
+			<int key="NextStepId" value="26"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="24"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item &apos;  rosoftcom&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;, &quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5469"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:32.000+01:00"/>
+			<int key="NextStepId" value="27"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="25"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;, &quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5470"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:32.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;, &quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5471"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:33.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;, &quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 20 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5472"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:33.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: 3 MouseDownOffsetX: -13 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointMiddleRight ControlToDrag: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Button \\&apos;Next\\&apos;&apos;] MouseUpOffsetY: -11 MouseUpOffsetX: 53 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointMiddleRight ControlToDropOver: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item \\&apos;Email@Domain\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="5473"/>
+			<date key="time:timestamp" value="2021-12-15T04:05:53.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="chromeDrag and drop UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item &apos;Email@Domain&apos; in Button &apos;Next&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Button \\&apos;Next\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 9 OffsetY: -8 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5474"/>
+			<date key="time:timestamp" value="2021-12-15T04:06:01.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="30"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: -9 MouseDownOffsetX: -8 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointBottomRight ControlToDrag: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Button \\&apos;Next\\&apos;&apos;] MouseUpOffsetY: -10 MouseUpOffsetX: -11 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointBottomRight ControlToDropOver: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Button \\&apos;Finish adding\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="5475"/>
+			<date key="time:timestamp" value="2021-12-15T04:06:20.000+01:00"/>
+			<int key="NextStepId" value="33"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="31"/>
+			<string key="concept:name" value="chromeDrag and drop UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Button &apos;Finish adding&apos; in Button &apos;Next&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Button \\&apos;Close\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: -6 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5476"/>
+			<date key="time:timestamp" value="2021-12-15T04:06:35.000+01:00"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="Office365users/onedrive"/>
+			<int key="StepId" value="32"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="71ed1ac0-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Button &apos;Close&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="60b3a38a-02fa-458e-97df-3bd48a64d829"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="b23a43e8-975d-ec11-8f8f-002248302213"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Google Chrome - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5132"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:04.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Google Chrome - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Users&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5133"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:08.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Users in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Active users&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5134"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:11.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Active users in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Add a user    key to add a user&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5135"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:15.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Add a user    key to add a user in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;First name\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 51 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5136"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:20.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;First name&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;First name\\&apos; 2&apos;] Text: &apos;Namehna&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5137"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:23.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;First name&apos; 2 in Pane &apos;Microsoft 365    Chrome (Guest)&apos;; Text:&apos;Namehna&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Last name\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 28 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5138"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:26.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Last name&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Last name\\&apos; 2&apos;] Text: &apos;Surname&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5139"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:31.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Last name&apos; 2 in Pane &apos;Microsoft 365    Chrome (Guest)&apos;; Text:&apos;Surname&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Username *\\&apos;&apos;] Text: &apos;Nameha&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5140"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:42.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Username *&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;; Text:&apos;Nameha&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Next\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5141"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:47.000+01:00"/>
+			<int key="NextStepId" value="13"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSetCheckboxState Checkbox: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Check Box \\&apos;Dynamics    Viral Trial\\&apos;&apos;] CheckboxState: UIAutomationCheckboxStateUnChecked\n&quot;]"/>
+			<string key="StepName" value="Set checkbox state in window"/>
+			<int key="rows" value="5142"/>
+			<date key="time:timestamp" value="2021-12-15T12:16:57.000+01:00"/>
+			<int key="NextStepId" value="14"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="chromeSet checkbox state in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Check Box &apos;Dynamics    Viral Trial&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSetCheckboxState Checkbox: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Check Box \\&apos;Microsoft 365 E3\\&apos;&apos;] CheckboxState: UIAutomationCheckboxStateUnChecked\n&quot;]"/>
+			<string key="StepName" value="Set checkbox state in window"/>
+			<int key="rows" value="5143"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:15.000+01:00"/>
+			<int key="NextStepId" value="15"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="chromeSet checkbox state in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Check Box &apos;Microsoft 365 E3&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Next\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5144"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:18.000+01:00"/>
+			<int key="NextStepId" value="16"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="12"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Next\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5145"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:23.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="13"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Finish adding\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5146"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:25.000+01:00"/>
+			<int key="NextStepId" value="18"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="14"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Finish adding&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Close\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5147"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:32.000+01:00"/>
+			<int key="NextStepId" value="19"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Close&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9312e0bb-134b-4181-937e-8d0371614126"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit&apos;] Text: &apos;Bird Sound Audio&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5180"/>
+			<date key="time:timestamp" value="2021-12-15T12:21:38.000+01:00"/>
+			<int key="NextStepId" value="54"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="48"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit in Pane &apos;Microsoft 365    Chrome (Guest)&apos;; Text:&apos;Bird Sound Audio&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Group 2&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 79 OffsetY: -14 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5181"/>
+			<date key="time:timestamp" value="2021-12-15T12:21:47.000+01:00"/>
+			<int key="NextStepId" value="55"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="49"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Group 2 in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeysFocusAndSendKeys TextToSend: &apos;{LShiftKey}(L)istern{Space}your{Space}fa{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}n{Space}your{Space}favourite{Space}{Back}{Back}{Back}{Back}{Back}{Back}rite{Space}{LShiftKey}(B)ird{Space}sound&apos;\n&quot;]"/>
+			<string key="StepName" value="MouseAndKeyboardSendKeysFocusAndSendKeys"/>
+			<int key="rows" value="5182"/>
+			<date key="time:timestamp" value="2021-12-15T12:21:48.000+01:00"/>
+			<int key="NextStepId" value="56"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="50"/>
+			<string key="concept:name" value="MouseAndKeyboardSendKeysFocusAndSendKeys"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="TextToSend:&apos;{LShiftKey}(L)istern your fa{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}n your favourite {Back}{Back}{Back}{Back}{Back}{Back}rite {LShiftKey}(B)ird sound&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Spinner&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 58 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5183"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:14.000+01:00"/>
+			<int key="NextStepId" value="57"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="51"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Spinner in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeysFocusAndSendKeys TextToSend: &apos;1&apos;\n&quot;]"/>
+			<string key="StepName" value="MouseAndKeyboardSendKeysFocusAndSendKeys"/>
+			<int key="rows" value="5184"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:15.000+01:00"/>
+			<int key="NextStepId" value="58"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="52"/>
+			<string key="concept:name" value="MouseAndKeyboardSendKeysFocusAndSendKeys"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="TextToSend:&apos;1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Spinner 2&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 27 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeysFocusAndSendKeys TextToSend: &apos;1&apos;\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5185"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:17.000+01:00"/>
+			<int key="NextStepId" value="59"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="53"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Spinner 2 in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Spinner 2&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 27 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeysFocusAndSendKeys TextToSend: &apos;1&apos;\n&quot;]"/>
+			<string key="StepName" value="MouseAndKeyboardSendKeysFocusAndSendKeys"/>
+			<int key="rows" value="5186"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:17.000+01:00"/>
+			<int key="NextStepId" value="61"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="54"/>
+			<string key="concept:name" value="MouseAndKeyboardSendKeysFocusAndSendKeys"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="TextToSend:&apos;1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Name\\&apos;&apos;] ClickType: UIAutomationClickTypeDoubleClick OffsetX: 31 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5187"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:28.000+01:00"/>
+			<int key="NextStepId" value="63"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="55"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Name&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Test&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5188"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:45.000+01:00"/>
+			<int key="NextStepId" value="64"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="56"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Test in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectRadioButton RadioButton: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Radio Button \\&apos;Test    feed to trigger it\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select radio button in window"/>
+			<int key="rows" value="5189"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:47.000+01:00"/>
+			<int key="NextStepId" value="65"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="57"/>
+			<string key="concept:name" value="chromeSelect radio button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Radio Button &apos;Test    feed to trigger it&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Test\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5190"/>
+			<date key="time:timestamp" value="2021-12-15T12:22:55.000+01:00"/>
+			<int key="NextStepId" value="67"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="58"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Test&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Publish now\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5191"/>
+			<date key="time:timestamp" value="2021-12-15T12:23:06.000+01:00"/>
+			<int key="NextStepId" value="68"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="59"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Publish now&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Image&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -2 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5192"/>
+			<date key="time:timestamp" value="2021-12-15T12:23:21.000+01:00"/>
+			<int key="NextStepId" value="69"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="60"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Image in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;List Item&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 264 OffsetY: 20 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5193"/>
+			<date key="time:timestamp" value="2021-12-15T12:23:32.000+01:00"/>
+			<int key="NextStepId" value="71"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="61"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Publish the audio file as new podcast"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="List Item in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b91e0f02-43d9-4251-ad28-5aa6ffb5f614"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="bc6b4980-df8f-ec11-b400-0022482f8e02"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Edge (2) - 3 running windows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="3937"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:16.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Select menu option in window"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Microsoft Edge (2) - 3 running windows in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="bc580f35-e4a2-4af6-844f-60492be50f0b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;New tab    - Microsoft\u200b Edge\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 65 OffsetY: -46 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3938"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:19.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="Click UI element in window"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;New tab    - Microsoft‰ÛÜ Edge&apos; in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="bc580f35-e4a2-4af6-844f-60492be50f0b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;adminmicrosoftcom&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3939"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:31.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New tab and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;New tab and    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;adminmicrosoftcom&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="bc580f35-e4a2-4af6-844f-60492be50f0b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="3940"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:32.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="bc580f35-e4a2-4af6-844f-60492be50f0b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Menu Item \\&apos;Users\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="3941"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:38.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Menu Item &apos;Users&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Menu Item \\&apos;Active users\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="3942"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:40.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Menu Item &apos;Active users&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Menu Item \\&apos;Add a    key to add a user\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="3943"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:45.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Menu Item &apos;Add a    key to add a user&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;First name\\&apos;&apos;] Text: &apos;Krutik&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3944"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:55.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;First name&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3; Text:&apos;Krutik&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Last name\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 61 OffsetY: 4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3945"/>
+			<date key="time:timestamp" value="2022-02-17T11:57:57.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Last name&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Last name\\&apos; 2&apos;] Text: &apos;Nath&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3946"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:00.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Last name&apos; 2 in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3; Text:&apos;Nath&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Display name *\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 124 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3947"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:03.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Display name *&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Username *\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 48 OffsetY: -10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3948"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:04.000+01:00"/>
+			<int key="NextStepId" value="13"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Username *&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Username *\\&apos; 2&apos;] Text: &apos;kurnat&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="3949"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:09.000+01:00"/>
+			<int key="NextStepId" value="14"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="12"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Username *&apos; 2 in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3; Text:&apos;kurnat&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Button \\&apos;Next\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3950"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:18.000+01:00"/>
+			<int key="NextStepId" value="15"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="13"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Text \\&apos;ms-Checkbox-label label-984\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 10 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3951"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:24.000+01:00"/>
+			<int key="NextStepId" value="16"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="14"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;ms-Checkbox-label label-984&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Text \\&apos;ms-Checkbox-label label-984\\&apos; 2&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 11 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3952"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:28.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;ms-Checkbox-label label-984&apos; 2 in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Button \\&apos;Next\\&apos; 2&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3953"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:31.000+01:00"/>
+			<int key="NextStepId" value="18"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; 2 in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Button \\&apos;expand Roles menu\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3954"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:38.000+01:00"/>
+			<int key="NextStepId" value="19"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="17"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;expand Roles menu&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Text \\&apos;ms-ChoiceField-field is-checked field-961\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 11 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="3955"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:41.000+01:00"/>
+			<int key="NextStepId" value="20"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="18"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;ms-ChoiceField-field is-checked field-961&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Button \\&apos;Next\\&apos; 2&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3956"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:46.000+01:00"/>
+			<int key="NextStepId" value="21"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="19"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Next&apos; 2 in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Button \\&apos;Finish adding\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="3957"/>
+			<date key="time:timestamp" value="2022-02-17T11:58:50.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/Microsoftforms"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Add the new joinee"/>
+			<string key="ProcessId" value="f1affafb-5485-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Finish adding&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="1d55201b-58bf-4f01-bafd-3e40536c8746"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="cd33ad9e-8993-ec11-b400-000d3a14d9b2"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Edge (2) - 2 running windows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="1077"/>
+			<date key="time:timestamp" value="2022-02-22T03:48:32.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Select menu option in window"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Microsoft Edge (2) - 2 running windows in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="edd979a2-ca4d-484f-a9cc-82140d9ea322"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;New tab    - Microsoft\u200b Edge\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 48 OffsetY: -46 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1078"/>
+			<date key="time:timestamp" value="2022-02-22T03:48:34.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="Click UI element in window"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;New tab    - Microsoft‰ÛÜ Edge&apos; in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="edd979a2-ca4d-484f-a9cc-82140d9ea322"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;adminmicrosoftcom&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="1079"/>
+			<date key="time:timestamp" value="2022-02-22T03:48:46.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="New tab and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;New tab and    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;adminmicrosoftcom&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="edd979a2-ca4d-484f-a9cc-82140d9ea322"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="1080"/>
+			<date key="time:timestamp" value="2022-02-22T03:48:47.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="edd979a2-ca4d-484f-a9cc-82140d9ea322"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Menu Item \\&apos;Users\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="1081"/>
+			<date key="time:timestamp" value="2022-02-22T03:48:53.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;Users&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6b30c8d9-e5f6-44f4-80b4-09bd9bde51fe"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Menu Item \\&apos;Active users\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="1082"/>
+			<date key="time:timestamp" value="2022-02-22T03:48:56.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;Active users&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6b30c8d9-e5f6-44f4-80b4-09bd9bde51fe"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Enter to search active users list\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 12 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1083"/>
+			<date key="time:timestamp" value="2022-02-22T03:49:02.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Enter to search active users list&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6b30c8d9-e5f6-44f4-80b4-09bd9bde51fe"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Enter to search active users list\\&apos; 2&apos;] Text: &apos;Name&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="1084"/>
+			<date key="time:timestamp" value="2022-02-22T03:49:04.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Enter to search active users list&apos; 2 in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3; Text:&apos;Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6b30c8d9-e5f6-44f4-80b4-09bd9bde51fe"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="1085"/>
+			<date key="time:timestamp" value="2022-02-22T03:49:07.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6b30c8d9-e5f6-44f4-80b4-09bd9bde51fe"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Data Item \\&apos;Name Surname    user More actions\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 59 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1086"/>
+			<date key="time:timestamp" value="2022-02-22T03:49:13.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Office365users"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Active users and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Office365users/googlecalendar/onedrive"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Go to the employees directory"/>
+			<string key="ProcessId" value="78b748db-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Data Item &apos;Name Surname    user More actions&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6b30c8d9-e5f6-44f4-80b4-09bd9bde51fe"/>
+		</event>
+	</trace>
+</log>

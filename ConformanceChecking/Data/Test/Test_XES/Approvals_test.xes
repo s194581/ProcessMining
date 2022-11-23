@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="823f227c-718d-ec11-b400-0022482f8fe5"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Google Chrome - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="4170"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:02.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Google Chrome - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="132a93d4-e2b4-47dc-b139-5d2aae74577e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Button \\&apos;New Tab\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="4171"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:09.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;New Tab&apos; in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="132a93d4-e2b4-47dc-b139-5d2aae74577e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;zoho crm&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="4172"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:12.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Pane &apos;Process    Chrome - Name&apos;; Text:&apos;zoho crm&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="132a93d4-e2b4-47dc-b139-5d2aae74577e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="4173"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:15.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="132a93d4-e2b4-47dc-b139-5d2aae74577e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Hyperlink \\&apos; Zoho CRM   com ‰Û¼ crm\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 43 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4174"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:19.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos; Zoho CRM   com ‰Û¼ crm&apos; in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="132a93d4-e2b4-47dc-b139-5d2aae74577e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Hyperlink \\&apos;ACCESS ZOHO CRM\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -12 OffsetY: -6 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4175"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:27.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Go to the crm tool"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;ACCESS ZOHO CRM&apos; in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="132a93d4-e2b4-47dc-b139-5d2aae74577e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Image&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -2 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4176"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:37.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Verify the status on approval request"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Image in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a7315961-d652-4416-98c8-d7a6b55fb65d"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Data Item \\&apos;Feeds\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 0 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4177"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:39.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Verify the status on approval request"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Data Item &apos;Feeds&apos; in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a7315961-d652-4416-98c8-d7a6b55fb65d"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Text \\&apos;, has been approved by \\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -19 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4178"/>
+			<date key="time:timestamp" value="2022-02-14T09:41:47.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Verify the status on approval request"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;, has been approved by &apos; in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a7315961-d652-4416-98c8-d7a6b55fb65d"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Process    Chrome - Name\\&apos;&apos;][&apos;Text \\&apos;Your request has been approved by \\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 51 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="4179"/>
+			<date key="time:timestamp" value="2022-02-14T09:42:05.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Process advisor | Power Automate - Google Chrome - Name"/>
+			<string key="Process_Name" value="approvals/sendmail"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Verify the status on approval request"/>
+			<string key="ProcessId" value="5520dd19-5385-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;Your request has been approved by &apos; in Pane &apos;Process    Chrome - Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a7315961-d652-4416-98c8-d7a6b55fb65d"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9d73d41e-a193-ec11-b400-000d3a14d7bb"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Customer    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;New Tab\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="391"/>
+			<date key="time:timestamp" value="2022-02-22T06:38:29.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Customer request form (Edit) Microsoft Forms and 3 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;New Tab&apos; in Window &apos;Customer    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -30 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="392"/>
+			<date key="time:timestamp" value="2022-02-22T06:38:32.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New tab and 1 more page - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;New tab and    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;power automate&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="393"/>
+			<date key="time:timestamp" value="2022-02-22T06:38:40.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New tab and 4 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Address and search bar&apos; in Window &apos;New tab and    - Microsoft‰ÛÜ Edge&apos; 2; Text:&apos;power automate&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;New tab and    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Edit \\&apos;Address and search bar\\&apos;&apos;] Text: &apos;power automate&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;, &apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;{Return}&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="394"/>
+			<date key="time:timestamp" value="2022-02-22T06:38:40.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="TextToSend:&apos;{Return}&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;power    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Power Automate | Microsoft Power Platform\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 114 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="395"/>
+			<date key="time:timestamp" value="2022-02-22T06:38:44.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="power automate - Search and 4 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="30"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Hyperlink &apos;Power Automate | Microsoft Power Platform&apos; in Window &apos;power    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Power    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Hyperlink \\&apos;Sign in\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -19 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="396"/>
+			<date key="time:timestamp" value="2022-02-22T06:38:49.000+01:00"/>
+			<int key="NextStepId" value="33"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Power Automate | Microsoft Power Platform and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="31"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Hyperlink &apos;Sign in&apos; in Window &apos;Power    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Microsoft    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Menu Item \\&apos;My flows\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="397"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:01.000+01:00"/>
+			<int key="NextStepId" value="34"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Microsoft Power Automate | Microsoft Power Platform and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="32"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;My flows&apos; in Window &apos;Microsoft    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="ce9e9d8b-1747-4b7a-a31a-dfb0c8faeada"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Manage your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Menu Item \\&apos;Add new\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="398"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:07.000+01:00"/>
+			<int key="NextStepId" value="35"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Manage your flows | Microsoft Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="33"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;Add new&apos; in Window &apos;Manage your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Manage your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Menu Item \\&apos;Instant cloud flow‰ÛÓfrom blank\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="399"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:11.000+01:00"/>
+			<int key="NextStepId" value="36"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Manage your flows | Microsoft Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="34"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;Instant cloud flow‰ÛÓfrom blank&apos; in Window &apos;Manage your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Manage your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Flow name\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 14 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="400"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:28.000+01:00"/>
+			<int key="NextStepId" value="37"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Manage your flows | Microsoft Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="35"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Flow name&apos; in Window &apos;Manage your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Manage your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Flow name\\&apos; 2&apos;] Text: &apos;Approval for customer request form&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="401"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:42.000+01:00"/>
+			<int key="NextStepId" value="38"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Manage your flows | Microsoft Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="36"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Flow name&apos; 2 in Window &apos;Manage your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;Approval for customer request form&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Manage your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Data Item \\&apos;Manually    trigger a flow \\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 39 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="402"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:46.000+01:00"/>
+			<int key="NextStepId" value="39"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Manage your flows | Microsoft Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="37"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Data Item &apos;Manually    trigger a flow &apos; in Window &apos;Manage your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Manage your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Create\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -7 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="403"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:50.000+01:00"/>
+			<int key="NextStepId" value="40"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Manage your flows | Microsoft Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="38"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Hyperlink &apos;Create&apos; in Window &apos;Manage your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;+ New step\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="404"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:53.000+01:00"/>
+			<int key="NextStepId" value="41"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="39"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;+ New step&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Search connectors and actions\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 49 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="405"/>
+			<date key="time:timestamp" value="2022-02-22T06:39:56.000+01:00"/>
+			<int key="NextStepId" value="42"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="40"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Search connectors and actions&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Search connectors and actions\\&apos; 2&apos;] Text: &apos;approval&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="406"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:00.000+01:00"/>
+			<int key="NextStepId" value="43"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="41"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Search connectors and actions&apos; 2 in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;approval&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Approvals\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="407"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:04.000+01:00"/>
+			<int key="NextStepId" value="44"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="42"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Approvals&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Start and wait for an approval Approvals\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="408"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:08.000+01:00"/>
+			<int key="NextStepId" value="45"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="43"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Start and wait for an approval Approvals&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Approval type\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -82 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="409"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:14.000+01:00"/>
+			<int key="NextStepId" value="46"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="44"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Approval type&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;List Item \\&apos;Approve/Reject - First to respond\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 3 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="410"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:21.000+01:00"/>
+			<int key="NextStepId" value="47"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="45"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;Approve/Reject - First to respond&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Title\\&apos;&apos;] Text: &apos;approval for customer request form template&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="411"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:42.000+01:00"/>
+			<int key="NextStepId" value="48"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="46"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Title&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;approval for customer request form template&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;msla-input-control\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 5 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="412"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:49.000+01:00"/>
+			<int key="NextStepId" value="49"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="47"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;msla-input-control&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;Name&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="413"/>
+			<date key="time:timestamp" value="2022-02-22T06:40:51.000+01:00"/>
+			<int key="NextStepId" value="50"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="48"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="TextToSend:&apos;Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;List Item \\&apos;Name Surname\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 79 OffsetY: 13 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="414"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:02.000+01:00"/>
+			<int key="NextStepId" value="51"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="49"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;Name Surname&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Item link\\&apos;&apos;] Text: &apos;&apos;&apos;\n&quot;, &quot;&apos;&apos;&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="415"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:09.000+01:00"/>
+			<int key="NextStepId" value="52"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="50"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Item link&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;&apos;&apos;&#10;&apos;&apos;&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;+ New step\\&apos; 2&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="416"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:18.000+01:00"/>
+			<int key="NextStepId" value="53"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="51"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;+ New step&apos; 2 in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Condition Control\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="417"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:23.000+01:00"/>
+			<int key="NextStepId" value="54"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="52"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Condition Control&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Object Name\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -33 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="418"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:26.000+01:00"/>
+			<int key="NextStepId" value="55"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="53"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Object Name&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Outcome The outcome of the approval\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="419"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:33.000+01:00"/>
+			<int key="NextStepId" value="56"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="54"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Outcome The outcome of the approval&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Value\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 8 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="420"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:36.000+01:00"/>
+			<int key="NextStepId" value="57"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="55"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Value&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Value\\&apos; 2&apos;] Text: &apos;&apos;&apos;\n&quot;, &quot;&apos;&apos;&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="421"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:40.000+01:00"/>
+			<int key="NextStepId" value="62"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="56"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Value&apos; 2 in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;&apos;&apos;&#10;&apos;&apos;&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Compose Data Operation\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="422"/>
+			<date key="time:timestamp" value="2022-02-22T06:41:56.000+01:00"/>
+			<int key="NextStepId" value="63"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="57"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Compose Data Operation&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Inputs\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 5 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="423"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:00.000+01:00"/>
+			<int key="NextStepId" value="64"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="58"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Inputs&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Inputs\\&apos; 2&apos;] Text: &apos;Approved&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="424"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:04.000+01:00"/>
+			<int key="NextStepId" value="68"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="59"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Inputs&apos; 2 in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;Approved&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Compose Data Operation\\&apos; 2&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="425"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:18.000+01:00"/>
+			<int key="NextStepId" value="69"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="60"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Compose Data Operation&apos; 2 in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Inputs\\&apos; 3&apos;] Text: &apos;Rejected&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="426"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:25.000+01:00"/>
+			<int key="NextStepId" value="70"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="61"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Inputs&apos; 3 in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;Rejected&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Create your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Save\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="427"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:29.000+01:00"/>
+			<int key="NextStepId" value="71"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Create your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="62"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Save&apos; in Window &apos;Create your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Menu Item \\&apos;Test\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="428"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:40.000+01:00"/>
+			<int key="NextStepId" value="72"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="63"/>
+			<string key="concept:name" value="msedgeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;Test&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Text \\&apos;ms-ChoiceField-field field-910\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 9 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="429"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:45.000+01:00"/>
+			<int key="NextStepId" value="73"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="64"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Text &apos;ms-ChoiceField-field field-910&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Test\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="430"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:49.000+01:00"/>
+			<int key="NextStepId" value="74"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="65"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Test&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Continue\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="431"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:55.000+01:00"/>
+			<int key="NextStepId" value="75"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="66"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Continue&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Run flow\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="432"/>
+			<date key="time:timestamp" value="2022-02-22T06:42:59.000+01:00"/>
+			<int key="NextStepId" value="76"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="67"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Run flow&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Test\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="433"/>
+			<date key="time:timestamp" value="2022-02-22T06:43:08.000+01:00"/>
+			<int key="NextStepId" value="77"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="68"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Test&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Run History    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Group \\&apos;msla-monitor-canvas msla-transform-interactive-zone\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 188 OffsetY: 18 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="434"/>
+			<date key="time:timestamp" value="2022-02-22T06:43:26.000+01:00"/>
+			<int key="NextStepId" value="78"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Run History | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="69"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Group &apos;msla-monitor-canvas msla-transform-interactive-zone&apos; in Window &apos;Run History    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Edit your    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Group \\&apos;ms-MessageBar   e root-853\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 209 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="435"/>
+			<date key="time:timestamp" value="2022-02-22T06:43:34.000+01:00"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Edit your flow | Power Automate and 5 more pages - [InPrivate] - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/approvals/projectonline"/>
+			<int key="StepId" value="70"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="48704707-5685-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Group &apos;ms-MessageBar   e root-853&apos; in Window &apos;Edit your    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="89a4ad19-b81b-478c-a6a4-6a1a575138e7"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="bec1cb74-139a-ec11-b400-000d3a1ae3e6"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Quick Launch Bar&apos;][&apos;Google Chrome - 2 running windows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="1983"/>
+			<date key="time:timestamp" value="2022-03-02T11:34:43.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Select menu option in window"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Google Chrome - 2 running windows in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3a4a109c-5a9f-4cbf-9841-33cc80e40b89"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;List \\&apos;Task Switcher\\&apos;&apos;][&apos;List Item \\&apos;New Tab - Google Chrome\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 29 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1984"/>
+			<date key="time:timestamp" value="2022-03-02T11:34:45.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Task Switcher"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="Click UI element in window"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;New Tab - Google Chrome&apos; in List &apos;Task Switcher&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3a4a109c-5a9f-4cbf-9841-33cc80e40b89"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Button \\&apos;Home Page - Zoho CRM\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="1985"/>
+			<date key="time:timestamp" value="2022-03-02T11:34:49.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Home Page - Zoho CRM&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3a4a109c-5a9f-4cbf-9841-33cc80e40b89"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Image&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -2 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1986"/>
+			<date key="time:timestamp" value="2022-03-02T11:34:54.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Image in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3a4a109c-5a9f-4cbf-9841-33cc80e40b89"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Hyperlink \\&apos;Approval Processes\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 5 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1987"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:00.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Approval Processes&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3a4a109c-5a9f-4cbf-9841-33cc80e40b89"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Image 2&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -1 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1988"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:05.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Image 2 in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Hyperlink \\&apos;Social\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 64 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1989"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:08.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Social&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Text \\&apos;Approval Process\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 0 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1990"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:13.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;Approval Process&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Hyperlink \\&apos;Approval History\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 32 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1991"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:16.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Approval History&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Data Item \\&apos;Name    Schedule a flow\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 245 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1992"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:23.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Data Item &apos;Name    Schedule a flow&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Hyperlink \\&apos;Schedule a flow\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 30 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1993"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:24.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Schedule a flow&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;New Tab - Google Chrome - Person 1\\&apos;&apos;][&apos;Text \\&apos;Comme   file from onedrive\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -28 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="1994"/>
+			<date key="time:timestamp" value="2022-03-02T11:35:35.000+01:00"/>
+			<int key="NextStepId" value="13"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="New Tab - Google Chrome - Person 1"/>
+			<string key="Process_Name" value="onedriveforbusiness/approvals/uiflow"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="375da950-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;Comme   file from onedrive&apos; in Pane &apos;New Tab - Google Chrome - Person 1&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e0d07452-92aa-43b2-a91f-591239050410"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e4e84e5c-be5c-ec11-8f8f-002248302895"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Teams - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5287"/>
+			<date key="time:timestamp" value="2021-12-14T10:15:53.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Microsoft Teams - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6e6f940f-6c5a-4ef5-a0ef-22f15b3ca444"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Menu Item \\&apos;More added apps Toolbar\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5288"/>
+			<date key="time:timestamp" value="2021-12-14T10:15:55.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="TeamsSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Menu Item &apos;More added apps Toolbar&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6e6f940f-6c5a-4ef5-a0ef-22f15b3ca444"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Text \\&apos;Approvals\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 11 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5289"/>
+			<date key="time:timestamp" value="2021-12-14T10:15:59.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Text &apos;Approvals&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="6e6f940f-6c5a-4ef5-a0ef-22f15b3ca444"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;New approval request\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5290"/>
+			<date key="time:timestamp" value="2021-12-14T10:16:10.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="TeamsPress button in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Button &apos;New approval request&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;vdf\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 64 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5291"/>
+			<date key="time:timestamp" value="2021-12-14T10:16:14.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item &apos;vdf&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;vdf\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 64 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5292"/>
+			<date key="time:timestamp" value="2021-12-14T10:16:16.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Data Item &apos;vdf&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Name of request\\&apos;&apos;] Text: &apos;Please allow me to access ISMS document &apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5293"/>
+			<date key="time:timestamp" value="2021-12-14T10:16:46.000+01:00"/>
+			<int key="NextStepId" value="8"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="6"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Edit &apos;Name of request&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;; Text:&apos;Please allow me to access ISMS document &apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Combo Box \\&apos;Add    with email or names\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 44 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5294"/>
+			<date key="time:timestamp" value="2021-12-14T10:16:59.000+01:00"/>
+			<int key="NextStepId" value="9"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="7"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="Combo Box &apos;Add    with email or names&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;Name&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="5295"/>
+			<date key="time:timestamp" value="2021-12-14T10:17:01.000+01:00"/>
+			<int key="NextStepId" value="10"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="8"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="TextToSend:&apos;Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;List Item \\&apos;Name Surname Email@Domain\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -28 OffsetY: 9 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5296"/>
+			<date key="time:timestamp" value="2021-12-14T10:17:08.000+01:00"/>
+			<int key="NextStepId" value="11"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="9"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="List Item &apos;Name Surname Email@Domain&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;UI Custom \\&apos;Tab    of app Approvals\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 196 OffsetY: -92 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5297"/>
+			<date key="time:timestamp" value="2021-12-14T10:17:12.000+01:00"/>
+			<int key="NextStepId" value="12"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="10"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="UI Custom &apos;Tab    of app Approvals&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="3605fc77-fa65-4276-9a2a-4afd8423bc60"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;UI Custom&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -40 OffsetY: 10 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5298"/>
+			<date key="time:timestamp" value="2021-12-14T10:17:44.000+01:00"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="Notifications/approvals"/>
+			<int key="StepId" value="11"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="33fdb1aa-815c-ec11-8f8f-002248302895"/>
+			<string key="StepDescription" value="UI Custom in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0b3baee7-40da-4646-826e-3ed4f25108b5"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f02b625b-7f5d-ec11-8f8f-002248302213"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Teams - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5079"/>
+			<date key="time:timestamp" value="2021-12-15T09:17:18.000+01:00"/>
+			<int key="NextStepId" value="2"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="approvals/googlecalendar/msnweather"/>
+			<int key="StepId" value="0"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="e7402edc-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Microsoft Teams - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="eddf2860-2342-47f0-89a9-7fbc15f81c19"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;General    Teams, Main Window\\&apos;&apos;][&apos;Menu Item \\&apos;More added apps Toolbar\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5080"/>
+			<date key="time:timestamp" value="2021-12-15T09:17:23.000+01:00"/>
+			<int key="NextStepId" value="3"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/googlecalendar/msnweather"/>
+			<int key="StepId" value="1"/>
+			<string key="concept:name" value="TeamsSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="e7402edc-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Menu Item &apos;More added apps Toolbar&apos; in Pane &apos;General    Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="eddf2860-2342-47f0-89a9-7fbc15f81c19"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;General    Teams, Main Window\\&apos;&apos;][&apos;List Item \\&apos;Approvals    more actions\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 24 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5081"/>
+			<date key="time:timestamp" value="2021-12-15T09:17:34.000+01:00"/>
+			<int key="NextStepId" value="4"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/googlecalendar/msnweather"/>
+			<int key="StepId" value="2"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="e7402edc-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="List Item &apos;Approvals    more actions&apos; in Pane &apos;General    Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="eddf2860-2342-47f0-89a9-7fbc15f81c19"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectTab Tab: appmask[&apos;Pane \\&apos;General    Teams, Main Window\\&apos;&apos;][&apos;Tab Item \\&apos;Sent\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select tab in window"/>
+			<int key="rows" value="5082"/>
+			<date key="time:timestamp" value="2021-12-15T09:17:40.000+01:00"/>
+			<int key="NextStepId" value="5"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/googlecalendar/msnweather"/>
+			<int key="StepId" value="3"/>
+			<string key="concept:name" value="TeamsSelect tab in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="e7402edc-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Tab Item &apos;Sent&apos; in Pane &apos;General    Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="eddf2860-2342-47f0-89a9-7fbc15f81c19"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;General    Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;Business Trip\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 38 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5083"/>
+			<date key="time:timestamp" value="2021-12-15T09:17:47.000+01:00"/>
+			<int key="NextStepId" value="6"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/googlecalendar/msnweather"/>
+			<int key="StepId" value="4"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="e7402edc-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Data Item &apos;Business Trip&apos; in Pane &apos;General    Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="eddf2860-2342-47f0-89a9-7fbc15f81c19"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;General    Teams, Main Window\\&apos;&apos;][&apos;Group&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -54 OffsetY: 15 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5084"/>
+			<date key="time:timestamp" value="2021-12-15T09:17:53.000+01:00"/>
+			<int key="NextStepId" value="7"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/googlecalendar/msnweather"/>
+			<int key="StepId" value="5"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="e7402edc-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Group in Pane &apos;General    Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="eddf2860-2342-47f0-89a9-7fbc15f81c19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f5df615b-c892-ec11-b400-000d3a14d9b2"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Teams - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="640"/>
+			<date key="time:timestamp" value="2022-02-21T04:46:18.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="14"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Microsoft Teams - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;Apps Toolbar\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="641"/>
+			<date key="time:timestamp" value="2022-02-21T04:46:24.000+01:00"/>
+			<int key="NextStepId" value="18"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="TeamsPress button in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Apps Toolbar&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;List Item \\&apos;Approvals store item\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 140 OffsetY: 17 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="642"/>
+			<date key="time:timestamp" value="2022-02-21T04:46:36.000+01:00"/>
+			<int key="NextStepId" value="19"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;Approvals store item&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;Open\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="643"/>
+			<date key="time:timestamp" value="2022-02-21T04:46:41.000+01:00"/>
+			<int key="NextStepId" value="20"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="17"/>
+			<string key="concept:name" value="TeamsPress button in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Open&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;New approval request\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="644"/>
+			<date key="time:timestamp" value="2022-02-21T04:46:51.000+01:00"/>
+			<int key="NextStepId" value="21"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="18"/>
+			<string key="concept:name" value="TeamsPress button in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;New approval request&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;List Item \\&apos;Basic request\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -20 OffsetY: 12 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="645"/>
+			<date key="time:timestamp" value="2022-02-21T04:46:56.000+01:00"/>
+			<int key="NextStepId" value="22"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="19"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;Basic request&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Name of request\\&apos;&apos;] Text: &apos;Can we conduct a fire fighting mockdrill?&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="646"/>
+			<date key="time:timestamp" value="2022-02-21T04:47:50.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Name of request&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;; Text:&apos;Can we conduct a fire fighting mockdrill?&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;Business Tip to Delhi\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -2 OffsetY: 6 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="647"/>
+			<date key="time:timestamp" value="2022-02-21T04:47:55.000+01:00"/>
+			<int key="NextStepId" value="24"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="21"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Data Item &apos;Business Tip to Delhi&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;sun&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="648"/>
+			<date key="time:timestamp" value="2022-02-21T04:47:57.000+01:00"/>
+			<int key="NextStepId" value="25"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="22"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="TextToSend:&apos;sun&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;List Item \\&apos;Name Surname Email@Domain\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 42 OffsetY: -14 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="649"/>
+			<date key="time:timestamp" value="2022-02-21T04:48:14.000+01:00"/>
+			<int key="NextStepId" value="26"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="23"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="List Item &apos;Name Surname Email@Domain&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Menu Item \\&apos;Add attachment\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="650"/>
+			<date key="time:timestamp" value="2022-02-21T04:48:22.000+01:00"/>
+			<int key="NextStepId" value="27"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="24"/>
+			<string key="concept:name" value="TeamsSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Menu Item &apos;Add attachment&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Group&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 59 OffsetY: -14 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="651"/>
+			<date key="time:timestamp" value="2022-02-21T04:48:44.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="25"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Group in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Name to display\\&apos;&apos;] Text: &apos;Mockdrill guide&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="652"/>
+			<date key="time:timestamp" value="2022-02-21T04:48:56.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Name to display&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;; Text:&apos;Mockdrill guide&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;Approved\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -3 OffsetY: 4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="653"/>
+			<date key="time:timestamp" value="2022-02-21T04:48:57.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Data Item &apos;Approved&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Address\\&apos;&apos;] Text: &apos;https://Companysharepointcom/:w:/s/ProjectRoadMap/Ee65aJGkP75Kgw3zqpvjywUBHQVCffLlTRv8sKxK3CeS2A?e=PN98ui&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="654"/>
+			<date key="time:timestamp" value="2022-02-21T04:48:59.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Address&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;; Text:&apos;https://Companysharepointcom/:w:/s/ProjectRoadMap/Ee65aJGkP75Kgw3zqpvjywUBHQVCffLlTRv8sKxK3CeS2A?e=PN98ui&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;Attach\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="655"/>
+			<date key="time:timestamp" value="2022-02-21T04:49:02.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="TeamsPress button in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Attach&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="e885b2b8-461d-43a1-85fc-463516c0507e"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Name Surname | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;23-11-2021 10:50:34 am\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -45 OffsetY: 3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopRight\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="656"/>
+			<date key="time:timestamp" value="2022-02-21T04:49:07.000+01:00"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="sharepoint/approvals/googlecalendar"/>
+			<int key="StepId" value="30"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="bfb58aca-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Data Item &apos;23-11-2021 10:50:34 am&apos; in Pane &apos;Name Surname | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="04e2ec04-b14a-41b6-8066-309d8c3106da"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fb93f146-ce5c-ec11-8f8f-002248302895"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Microsoft Teams - 1 running window&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5394"/>
+			<date key="time:timestamp" value="2021-12-14T12:12:53.000+01:00"/>
+			<int key="NextStepId" value="22"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Microsoft Teams - 1 running window in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cec867da-a953-4069-86e4-2ba1a1fe5dba"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Search all apps\\&apos;&apos;] Text: &apos;approval&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5395"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:07.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="21"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Search all apps&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;; Text:&apos;approval&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cec867da-a953-4069-86e4-2ba1a1fe5dba"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Menu Item \\&apos;Approvals tile Microsoft Corporation\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 59 OffsetY: -6 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5396"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:13.000+01:00"/>
+			<int key="NextStepId" value="24"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="22"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Menu Item &apos;Approvals tile Microsoft Corporation&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cec867da-a953-4069-86e4-2ba1a1fe5dba"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;Open\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: 38 OffsetY: -6 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5397"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:18.000+01:00"/>
+			<int key="NextStepId" value="25"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="23"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Login to Approval app"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Open&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cec867da-a953-4069-86e4-2ba1a1fe5dba"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;New approval request\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: 23 OffsetY: -7 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5398"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:29.000+01:00"/>
+			<int key="NextStepId" value="26"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="24"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;New approval request&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;Qualification for bottom performers\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: 78 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5399"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:36.000+01:00"/>
+			<int key="NextStepId" value="27"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="25"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Data Item &apos;Qualification for bottom performers&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;Qualification for bottom performers\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 78 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5400"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:38.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Data Item &apos;Qualification for bottom performers&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Name of request\\&apos;&apos;] Text: &apos;Guideline Training&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5401"/>
+			<date key="time:timestamp" value="2021-12-14T12:13:58.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Name of request&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;; Text:&apos;Guideline Training&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Data Item \\&apos;Business Trip\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: -44 OffsetY: -6 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5402"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:09.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Data Item &apos;Business Trip&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&apos;WAIT 2\n&apos;, &quot;MouseAndKeyboardSendKeys TextToSend: &apos;Name&apos;\n&quot;]"/>
+			<string key="StepName" value="Send keys"/>
+			<int key="rows" value="5403"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:10.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="Send keys"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="TextToSend:&apos;Name&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;List Item \\&apos;Name Surname Email@Domain\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 38 OffsetY: -16 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5404"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:19.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="30"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="List Item &apos;Name Surname Email@Domain&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Menu Item \\&apos;Add attachment\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: 20 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5405"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:31.000+01:00"/>
+			<int key="NextStepId" value="33"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="31"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Menu Item &apos;Add attachment&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Group&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 70 OffsetY: -22 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5406"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:36.000+01:00"/>
+			<int key="NextStepId" value="34"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="32"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Group in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Name to display\\&apos;&apos;] Text: &apos;Training&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5407"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:42.000+01:00"/>
+			<int key="NextStepId" value="35"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="33"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Name to display&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;; Text:&apos;Training&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Edit \\&apos;Address\\&apos;&apos;] Text: &apos;https://tasksofficecom/Companycom/Home/PlanViews/ct9V4Komjk2i3L3BSSzckWUAHtly?Type=PlanLink&amp;Channel=Link&amp;CreatedTime=637750771682580000&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5408"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:49.000+01:00"/>
+			<int key="NextStepId" value="36"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="34"/>
+			<string key="concept:name" value="TeamsPopulate text field in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Address&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;; Text:&apos;https://tasksofficecom/Companycom/Home/PlanViews/ct9V4Komjk2i3L3BSSzckWUAHtly?Type=PlanLink&amp;Channel=Link&amp;CreatedTime=637750771682580000&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;Button \\&apos;Attach\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5409"/>
+			<date key="time:timestamp" value="2021-12-14T12:14:54.000+01:00"/>
+			<int key="NextStepId" value="37"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="35"/>
+			<string key="concept:name" value="TeamsPress button in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Attach&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Apps | Microsoft Teams, Main Window\\&apos;&apos;][&apos;UI Custom \\&apos;Tab    of app Approvals\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: -425 OffsetY: -93 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomRight\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5410"/>
+			<date key="time:timestamp" value="2021-12-14T12:15:00.000+01:00"/>
+			<string key="Connectors" value="Approvals"/>
+			<string key="ApplicationParentWindowName" value="Apps | Microsoft Teams, Main Window"/>
+			<string key="Process_Name" value="approvals/planner"/>
+			<int key="StepId" value="36"/>
+			<string key="concept:name" value="TeamsClick UI element in window"/>
+			<string key="ApplicationProcessName" value="Teams"/>
+			<string key="label_EventName" value="Create a request for the approval"/>
+			<string key="ProcessId" value="5477dec3-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="UI Custom &apos;Tab    of app Approvals&apos; in Pane &apos;Apps | Microsoft Teams, Main Window&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="b65f23b1-0b77-49c1-82ec-9e16080fe9bd"/>
+		</event>
+	</trace>
+</log>

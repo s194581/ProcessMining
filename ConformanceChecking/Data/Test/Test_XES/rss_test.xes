@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="0a5ecbc8-c193-ec11-b400-000d3a14d7bb"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Feedback    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Distill Web Monitor Has access to this site\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="462"/>
+			<date key="time:timestamp" value="2022-02-22T10:33:51.000+01:00"/>
+			<int key="NextStepId" value="28"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Feedback form for new cafeteria facility (Edit) Microsoft Forms and 5 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/planner"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="2bb5102c-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Distill Web Monitor Has access to this site&apos; in Window &apos;Feedback    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="a1c4d686-7883-4dd5-b31d-e82ce8c3d3b8"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;\uf003Email\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonDown OffsetX: 70 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="463"/>
+			<date key="time:timestamp" value="2022-02-22T10:35:09.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/planner"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="2bb5102c-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Hyperlink &apos;•ÛÄEmail&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="d2d31710-1e91-49d2-99d8-d419627287c9"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Combo Box&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -22 OffsetY: 2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="464"/>
+			<date key="time:timestamp" value="2022-02-22T10:35:23.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 5 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/planner"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="2bb5102c-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Combo Box in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="d2d31710-1e91-49d2-99d8-d419627287c9"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Edit \\&apos;Text\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: 66 OffsetY: 5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="465"/>
+			<date key="time:timestamp" value="2022-02-22T10:36:01.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 5 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/planner"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="2bb5102c-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Text&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="d2d31710-1e91-49d2-99d8-d419627287c9"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Edit \\&apos;Number\\&apos;&apos;] Text: &apos;0&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="466"/>
+			<date key="time:timestamp" value="2022-02-22T10:36:02.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/planner"/>
+			<int key="StepId" value="30"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="2bb5102c-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Edit &apos;Number&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos; 3; Text:&apos;0&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="d2d31710-1e91-49d2-99d8-d419627287c9"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos; 3&apos;][&apos;Button \\&apos;Save\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftButtonUp OffsetX: -29 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="467"/>
+			<date key="time:timestamp" value="2022-02-22T10:36:15.000+01:00"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/planner"/>
+			<int key="StepId" value="31"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="2bb5102c-5585-ec11-8d21-000d3a571ab5"/>
+			<string key="StepDescription" value="Button &apos;Save&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos; 3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="d2d31710-1e91-49d2-99d8-d419627287c9"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3ce30277-5d94-ec11-b400-000d3a14d7bb"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;List Item \\&apos;home\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 4 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="593"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:09.000+01:00"/>
+			<int key="NextStepId" value="45"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="43"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Prepare a form"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="List Item &apos;home&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cd2d331d-86e3-4f45-b080-4cacd20e1c6b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Hyperlink \\&apos;\ue902 Forms\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 6 OffsetY: -35 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="594"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:14.000+01:00"/>
+			<int key="NextStepId" value="46"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="44"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Prepare a form"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;”?â Forms&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cd2d331d-86e3-4f45-b080-4cacd20e1c6b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Hyperlink \\&apos;Analytics\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -9 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="595"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:19.000+01:00"/>
+			<int key="NextStepId" value="47"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="45"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Prepare a form"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Analytics&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="cd2d331d-86e3-4f45-b080-4cacd20e1c6b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Distill Web Monitor Has access to this site\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="596"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:24.000+01:00"/>
+			<int key="NextStepId" value="48"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 4 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="46"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Prepare a form"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Distill Web Monitor Has access to this site&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="0e2989a9-755b-405c-85f4-616901055384"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Button \\&apos;\uf067Monitor parts of page\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="597"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:27.000+01:00"/>
+			<int key="NextStepId" value="49"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="47"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;•?¤Monitor parts of page&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Hyperlink \\&apos;\ue942 0 SUBMISSIONS\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -18 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="598"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:35.000+01:00"/>
+			<int key="NextStepId" value="50"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="48"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;”´â 0 SUBMISSIONS&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Zoho Forms    - Microsoft\u200b Edge\\&apos; 2&apos;][&apos;Button \\&apos;\uf0c7Save selections\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="599"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:38.000+01:00"/>
+			<int key="NextStepId" value="51"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Zoho Forms and 6 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="49"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;•ÄàSave selections&apos; in Window &apos;Zoho Forms    - Microsoft‰ÛÜ Edge&apos; 2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: 1 MouseDownOffsetX: -1 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointMiddleCenter ControlToDrag: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Slider \\&apos;slider-handle min-slider-handle round\\&apos;&apos;] MouseUpOffsetY: 1 MouseUpOffsetX: -3 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointMiddleCenter ControlToDropOver: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Text \\&apos;5s\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="600"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:45.000+01:00"/>
+			<int key="NextStepId" value="52"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="50"/>
+			<string key="concept:name" value="msedgeDrag and drop UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;5s&apos; in Slider &apos;slider-handle min-slider-handle round&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Add action\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 12 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="601"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:48.000+01:00"/>
+			<int key="NextStepId" value="53"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="51"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Add action&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;\uf003Email\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 95 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="602"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:54.000+01:00"/>
+			<int key="NextStepId" value="54"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="52"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;•ÛÄEmail&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Add Condition\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -28 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="603"/>
+			<date key="time:timestamp" value="2022-02-23T05:09:58.000+01:00"/>
+			<int key="NextStepId" value="55"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="53"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Add Condition&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Combo Box&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 103 OffsetY: 5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="604"/>
+			<date key="time:timestamp" value="2022-02-23T05:10:01.000+01:00"/>
+			<int key="NextStepId" value="56"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="54"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Combo Box in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Untitled and    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Pane \\&apos;View\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 56 OffsetY: 28 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="605"/>
+			<date key="time:timestamp" value="2022-02-23T05:10:03.000+01:00"/>
+			<int key="NextStepId" value="57"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Untitled and 4 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="55"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Pane &apos;View&apos; in Window &apos;Untitled and    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Text\\&apos;&apos;] Text: &apos;0&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="606"/>
+			<date key="time:timestamp" value="2022-02-23T05:10:06.000+01:00"/>
+			<int key="NextStepId" value="58"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="56"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Text&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;0&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Save\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="607"/>
+			<date key="time:timestamp" value="2022-02-23T05:10:09.000+01:00"/>
+			<int key="NextStepId" value="59"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="57"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Save&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Group&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -132 OffsetY: 42 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopRight\n&quot;, &apos;# End of autogenerated actions using the desktop recorder\n&apos;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="608"/>
+			<date key="time:timestamp" value="2022-02-23T05:10:15.000+01:00"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 7 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="Microsoftforms/rss/outlook"/>
+			<int key="StepId" value="58"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="80c9452f-5685-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Group in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="88023160-ffee-4587-96fb-911b30ef9f21"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="b23a43e8-975d-ec11-8f8f-002248302213"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Quick Launch Bar&apos;][&apos;Google Chrome - 1 running window 2&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5148"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:39.000+01:00"/>
+			<int key="NextStepId" value="20"/>
+			<string key="Connectors" value="rss"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="Press button in window"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Google Chrome - 1 running window 2 in Quick Launch Bar"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: My flows&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5149"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:45.000+01:00"/>
+			<int key="NextStepId" value="21"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="17"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: My flows in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Add new&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5150"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:48.000+01:00"/>
+			<int key="NextStepId" value="22"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="18"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Add new in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Automated cloud flow‰ÛÓfrom blank&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5151"/>
+			<date key="time:timestamp" value="2021-12-15T12:17:58.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="19"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Automated cloud flow‰ÛÓfrom blank in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Choose your trigger by searching\\&apos;&apos;] Text: &apos;rss&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5152"/>
+			<date key="time:timestamp" value="2021-12-15T12:18:06.000+01:00"/>
+			<int key="NextStepId" value="24"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Choose your trigger by searching&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;; Text:&apos;rss&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectRadioButton RadioButton: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Radio Button \\&apos;Row Selection\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select radio button in window"/>
+			<int key="rows" value="5153"/>
+			<date key="time:timestamp" value="2021-12-15T12:18:17.000+01:00"/>
+			<int key="NextStepId" value="25"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="21"/>
+			<string key="concept:name" value="chromeSelect radio button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Radio Button &apos;Row Selection&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Flow name\\&apos;&apos;] Text: &apos;RSS demo&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="5154"/>
+			<date key="time:timestamp" value="2021-12-15T12:18:32.000+01:00"/>
+			<int key="NextStepId" value="26"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="22"/>
+			<string key="concept:name" value="chromePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Flow name&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;; Text:&apos;RSS demo&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Hyperlink \\&apos;Create\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -15 OffsetY: -5 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5155"/>
+			<date key="time:timestamp" value="2021-12-15T12:18:39.000+01:00"/>
+			<int key="NextStepId" value="27"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="23"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Hyperlink &apos;Create&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Text \\&apos;The RSS feed   riesrss)\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -81 OffsetY: 0 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5156"/>
+			<date key="time:timestamp" value="2021-12-15T12:18:51.000+01:00"/>
+			<int key="NextStepId" value="29"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="24"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Text &apos;The RSS feed   riesrss)&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Text \\&apos;https://mediarsscom/rssdemo/feedxml\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 3 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5157"/>
+			<date key="time:timestamp" value="2021-12-15T12:18:57.000+01:00"/>
+			<int key="NextStepId" value="30"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="25"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Text &apos;https://mediarsscom/rssdemo/feedxml&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -50 OffsetY: 18 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5158"/>
+			<date key="time:timestamp" value="2021-12-15T12:19:00.000+01:00"/>
+			<int key="NextStepId" value="31"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="26"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Text \\&apos;The RSS feed   riesrss)\\&apos;&apos;] ClickType: UIAutomationClickTypeRightClick OffsetX: 34 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5159"/>
+			<date key="time:timestamp" value="2021-12-15T12:19:04.000+01:00"/>
+			<int key="NextStepId" value="32"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="27"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Text &apos;The RSS feed   riesrss)&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationSelectMenuOption Control: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;MenuItem: Paste Ctrl+V&apos;]\n&quot;]"/>
+			<string key="StepName" value="Select menu option in window"/>
+			<int key="rows" value="5160"/>
+			<date key="time:timestamp" value="2021-12-15T12:19:06.000+01:00"/>
+			<int key="NextStepId" value="33"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="28"/>
+			<string key="concept:name" value="chromeSelect menu option in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="MenuItem: Paste Ctrl+V in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;+ New step\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5161"/>
+			<date key="time:timestamp" value="2021-12-15T12:19:09.000+01:00"/>
+			<int key="NextStepId" value="34"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="29"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;+ New step&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Document \\&apos;Create your flow | Power Automate\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -261 OffsetY: -162 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5173"/>
+			<date key="time:timestamp" value="2021-12-15T12:20:27.000+01:00"/>
+			<int key="NextStepId" value="46"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="41"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Document &apos;Create your flow | Power Automate&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;Title\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 75 OffsetY: -4 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5174"/>
+			<date key="time:timestamp" value="2021-12-15T12:20:31.000+01:00"/>
+			<int key="NextStepId" value="47"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="42"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;Title&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Feed title Feed title\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5175"/>
+			<date key="time:timestamp" value="2021-12-15T12:20:42.000+01:00"/>
+			<int key="NextStepId" value="48"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="43"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Feed title Feed title&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Edit \\&apos;PublishedOn\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 74 OffsetY: 1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5176"/>
+			<date key="time:timestamp" value="2021-12-15T12:20:44.000+01:00"/>
+			<int key="NextStepId" value="49"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="44"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Edit &apos;PublishedOn&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Document \\&apos;Create your flow | Power Automate\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -256 OffsetY: -96 MousePositionRelativeToElement: UIAutomationRectangleEdgePointBottomRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5177"/>
+			<date key="time:timestamp" value="2021-12-15T12:20:57.000+01:00"/>
+			<int key="NextStepId" value="50"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="45"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Document &apos;Create your flow | Power Automate&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Button \\&apos;Save\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="5178"/>
+			<date key="time:timestamp" value="2021-12-15T12:21:02.000+01:00"/>
+			<int key="NextStepId" value="52"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="46"/>
+			<string key="concept:name" value="chromePress button in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Button &apos;Save&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="9afbfca8-1b60-4f4e-9c37-590c2f5271c7"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Pane \\&apos;Microsoft 365    Chrome (Guest)\\&apos;&apos;][&apos;Hyperlink \\&apos;\uf067 New episode\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 34 OffsetY: 12 MousePositionRelativeToElement: UIAutomationRectangleEdgePointTopLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="5179"/>
+			<date key="time:timestamp" value="2021-12-15T12:21:26.000+01:00"/>
+			<int key="NextStepId" value="53"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Microsoft 365 admin center - Home - Google Chrome (Guest)"/>
+			<string key="Process_Name" value="Office365users/rss/sql"/>
+			<int key="StepId" value="47"/>
+			<string key="concept:name" value="chromeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="chrome"/>
+			<string key="label_EventName" value="Connect the database server with podcasting app"/>
+			<string key="ProcessId" value="66d72ce9-815c-ec11-8f8f-002248302213"/>
+			<string key="StepDescription" value="Hyperlink &apos;•?¤ New episode&apos; in Pane &apos;Microsoft 365    Chrome (Guest)&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="017eec8e-8c17-40b4-a36b-6cff05248a6b"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f9ecc5d4-6298-ec11-b400-000d3a4f8f42"/>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Power Apps    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Distill Web Monitor Has access to this site\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="2526"/>
+			<date key="time:timestamp" value="2022-02-28T07:52:50.000+01:00"/>
+			<int key="NextStepId" value="14"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Power Apps and 2 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="12"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Open the rss feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Distill Web Monitor Has access to this site&apos; in Window &apos;Power Apps    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Power Apps    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;\uf067Monitor parts of page\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="2527"/>
+			<date key="time:timestamp" value="2022-02-28T07:52:53.000+01:00"/>
+			<int key="NextStepId" value="15"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Power Apps and 2 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="13"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Open the rss feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;•?¤Monitor parts of page&apos; in Window &apos;Power Apps    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Power Apps    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Data Item \\&apos;Custom(9)\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -11 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleRight\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="2528"/>
+			<date key="time:timestamp" value="2022-02-28T07:52:59.000+01:00"/>
+			<int key="NextStepId" value="16"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Power Apps and 2 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="14"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Data Item &apos;Custom(9)&apos; in Window &apos;Power Apps    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Power Apps    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;\uf0c7Save selections\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="2529"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:01.000+01:00"/>
+			<int key="NextStepId" value="17"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Power Apps and 2 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="15"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;•ÄàSave selections&apos; in Window &apos;Power Apps    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationDragAndDropElement MouseDownOffsetY: -1 MouseDownOffsetX: 1 RectangleEdgePointForMouseDown: UIAutomationRectangleEdgePointMiddleCenter ControlToDrag: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Slider \\&apos;slider-handle min-slider-handle round\\&apos;&apos;] MouseUpOffsetY: 0 MouseUpOffsetX: 0 RectangleEdgePointForMouseUp: UIAutomationRectangleEdgePointMiddleCenter ControlToDropOver: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Text \\&apos;Set interval    for changes\\&apos;&apos;] ClickType: UIAutomationDragAndDropClickTypeLeftClick\n&quot;]"/>
+			<string key="StepName" value="Drag and drop UI element in window"/>
+			<int key="rows" value="2530"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:06.000+01:00"/>
+			<int key="NextStepId" value="18"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="16"/>
+			<string key="concept:name" value="msedgeDrag and drop UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Text &apos;Set interval    for changes&apos; in Slider &apos;slider-handle min-slider-handle round&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Add action\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -6 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="2531"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:10.000+01:00"/>
+			<int key="NextStepId" value="19"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="17"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Add action&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;\uf0e5Popup Notification (for local monitor)\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 91 OffsetY: -1 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleLeft\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="2532"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:12.000+01:00"/>
+			<int key="NextStepId" value="20"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="18"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;•Ä´Popup Notification (for local monitor)&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Hyperlink \\&apos;Add Condition\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 12 OffsetY: -3 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="2533"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:14.000+01:00"/>
+			<int key="NextStepId" value="21"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="19"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Hyperlink &apos;Add Condition&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Combo Box&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: -41 OffsetY: -2 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="2534"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:17.000+01:00"/>
+			<int key="NextStepId" value="22"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="20"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Combo Box in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationClick Element: appmask[&apos;Window \\&apos;Untitled and    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Pane \\&apos;View\\&apos;&apos;] ClickType: UIAutomationClickTypeLeftClick OffsetX: 76 OffsetY: 80 MousePositionRelativeToElement: UIAutomationRectangleEdgePointMiddleCenter\n&quot;]"/>
+			<string key="StepName" value="Click UI element in window"/>
+			<int key="rows" value="2535"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:20.000+01:00"/>
+			<int key="NextStepId" value="23"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Untitled and 2 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="21"/>
+			<string key="concept:name" value="msedgeClick UI element in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Pane &apos;View&apos; in Window &apos;Untitled and    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPopulateTextField TextField: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Edit \\&apos;Text\\&apos;&apos;] Text: &apos;9&apos; Mode: UIAutomationPopulateTextModeReplace ClickType: UIAutomationPopulateMouseClickTypeSingleClick\n&quot;]"/>
+			<string key="StepName" value="Populate text field in window"/>
+			<int key="rows" value="2536"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:24.000+01:00"/>
+			<int key="NextStepId" value="24"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="22"/>
+			<string key="concept:name" value="msedgePopulate text field in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Edit &apos;Text&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;; Text:&apos;9&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+		<event>
+			<string key="automation_step" value="[&quot;UIAutomationPressButton Button: appmask[&apos;Window \\&apos;Watchlist -    - Microsoft\u200b Edge\\&apos;&apos;][&apos;Button \\&apos;Save\\&apos;&apos;]\n&quot;]"/>
+			<string key="StepName" value="Press button in window"/>
+			<int key="rows" value="2537"/>
+			<date key="time:timestamp" value="2022-02-28T07:53:28.000+01:00"/>
+			<int key="NextStepId" value="25"/>
+			<string key="Connectors" value="rss"/>
+			<string key="ApplicationParentWindowName" value="Watchlist - Distill Web Monitor and 3 more pages - Personal - Microsoft‰ÛÜ Edge"/>
+			<string key="Process_Name" value="rss/commondataservice/onenote"/>
+			<int key="StepId" value="23"/>
+			<string key="concept:name" value="msedgePress button in window"/>
+			<string key="ApplicationProcessName" value="msedge"/>
+			<string key="label_EventName" value="Set the feed"/>
+			<string key="ProcessId" value="7edaa463-5585-ec11-8d21-000d3a5712fa"/>
+			<string key="StepDescription" value="Button &apos;Save&apos; in Window &apos;Watchlist -    - Microsoft‰ÛÜ Edge&apos;"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="label_EventId" value="678c573e-c25a-453a-8e1c-b64245873d7b"/>
+		</event>
+	</trace>
+</log>

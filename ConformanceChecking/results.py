@@ -30,6 +30,7 @@ def main():
 
             for xes_filename in os.listdir(test_path):
                 if xes_filename.endswith('.xes'):
+                    print(xes_filename)
                     if xes_filename not in column_header:
                         column_header.append(xes_filename)
 
@@ -66,8 +67,8 @@ def main():
     print(progress_df)
     print('                                         ')
     print('-----------------------------------------')
-    simple_df.to_excel("dcr_simple_conf.xlsx")
-    progress_df.to_excel("dcr_progress_conf.xlsx")
+    #simple_df.to_excel("dcr_simple_conf.xlsx")
+    #progress_df.to_excel("dcr_progress_conf.xlsx")
     #print(simple_conf.style.to_latex())
     #print('                                         ')
     #print('                                         ')
